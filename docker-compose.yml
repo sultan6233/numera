@@ -1,0 +1,39 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: numerology
+      POSTGRES_USER: numerology
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:-numerology}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U numerology"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: jdbc:postgresql://postgres:5432/numerology
+      DATABASE_USER: numerology
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD:-numerology}
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      # Mount real credential files here once you have them (see .env.example);
+      # the corresponding *_PATH env vars point inside this directory.
+      - ./secrets:/app/secrets:ro
+
+volumes:
+  pgdata:
