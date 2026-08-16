@@ -2,6 +2,7 @@ package com.numerology.routes
 
 import com.numerology.plugins.authenticated
 import com.numerology.plugins.requireUserId
+import com.numerology.repositories.UserRepository
 import com.numerology.services.InsightService
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.application.call
@@ -10,8 +11,8 @@ import io.ktor.server.routing.Route
 import io.ktor.server.routing.get
 import java.time.LocalDate
 
-fun Route.insightRoutes(insightService: InsightService) {
-    authenticated {
+fun Route.insightRoutes(insightService: InsightService, userRepository: UserRepository) {
+    authenticated(userRepository) {
         get("/daily-insight") {
             val userId = call.requireUserId()
             val dateParam = call.request.queryParameters["date"]

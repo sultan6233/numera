@@ -101,12 +101,12 @@ fun Application.module(config: AppConfig) {
 
     routing {
         authRoutes(userRepository, jwtService)
-        profileRoutes(profileService)
-        companionRoutes(companionService)
-        insightRoutes(insightService)
+        profileRoutes(profileService, userRepository)
+        companionRoutes(companionService, userRepository)
+        insightRoutes(insightService, userRepository)
         referenceRoutes()
-        subscriptionRoutes(subscriptionService)
-        pushRoutes(pushService)
+        subscriptionRoutes(subscriptionService, userRepository)
+        pushRoutes(pushService, userRepository)
         configRoutes(remoteConfigService, config.adminToken)
     }
 

@@ -3,6 +3,7 @@ package com.numerology.routes
 import com.numerology.apple.AppleNotificationEnvelope
 import com.numerology.plugins.authenticated
 import com.numerology.plugins.requireUserId
+import com.numerology.repositories.UserRepository
 import com.numerology.services.SubscriptionService
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.application.call
@@ -23,7 +24,7 @@ data class AppleVerifyRequest(val signedTransactionInfo: String)
 @Serializable
 data class GoogleVerifyRequest(val subscriptionId: String, val purchaseToken: String)
 
-fun Route.subscriptionRoutes(subscriptionService: SubscriptionService) {
+fun Route.subscriptionRoutes(subscriptionService: SubscriptionService, userRepository: UserRepository) {
 
     // --- Server-to-server webhooks (Apple / Google call these directly, no user auth) ---
 
@@ -46,7 +47,7 @@ fun Route.subscriptionRoutes(subscriptionService: SubscriptionService) {
     }
 
     // --- Authenticated endpoints ---
-    authenticated {
+    authenticated(userRepository) {
         get("/entitlement") {
             val userId = call.requireUserId()
             call.respond(HttpStatusCode.OK, subscriptionService.getEntitlement(userId))

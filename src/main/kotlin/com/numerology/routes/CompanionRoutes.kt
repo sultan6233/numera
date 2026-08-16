@@ -3,6 +3,7 @@ package com.numerology.routes
 import com.numerology.models.CompanionRequest
 import com.numerology.plugins.authenticated
 import com.numerology.plugins.requireUserId
+import com.numerology.repositories.UserRepository
 import com.numerology.services.CompanionService
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.application.call
@@ -14,8 +15,8 @@ import io.ktor.server.routing.get
 import io.ktor.server.routing.post
 import java.util.UUID
 
-fun Route.companionRoutes(companionService: CompanionService) {
-    authenticated {
+fun Route.companionRoutes(companionService: CompanionService, userRepository: UserRepository) {
+    authenticated(userRepository) {
         post("/profile/companions") {
             val userId = call.requireUserId()
             val request = call.receive<CompanionRequest>()

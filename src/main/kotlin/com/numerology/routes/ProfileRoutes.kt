@@ -3,6 +3,7 @@ package com.numerology.routes
 import com.numerology.models.SaveProfileRequest
 import com.numerology.plugins.authenticated
 import com.numerology.plugins.requireUserId
+import com.numerology.repositories.UserRepository
 import com.numerology.services.ProfileService
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.application.call
@@ -12,8 +13,8 @@ import io.ktor.server.routing.Route
 import io.ktor.server.routing.get
 import io.ktor.server.routing.post
 
-fun Route.profileRoutes(profileService: ProfileService) {
-    authenticated {
+fun Route.profileRoutes(profileService: ProfileService, userRepository: UserRepository) {
+    authenticated(userRepository) {
         post("/profile") {
             val userId = call.requireUserId()
             val request = call.receive<SaveProfileRequest>()
