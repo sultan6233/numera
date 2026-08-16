@@ -4,6 +4,7 @@ import com.numerology.db.DatabaseFactory.dbQuery
 import com.numerology.util.pgJsonb
 import com.numerology.util.query
 import com.numerology.util.queryOne
+import com.numerology.util.update
 import com.numerology.util.withConnection
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
@@ -25,6 +26,7 @@ data class DailyInsightRecord(
     val luckyNumber: Int?,
     val source: String,
     val createdAt: OffsetDateTime,
+    val pushedAt: OffsetDateTime?,
 )
 
 data class RecentInsightTitle(val date: LocalDate, val headline: String, val focusArea: String)
@@ -101,7 +103,16 @@ class DailyInsightRepository {
         }
     }
 
-    private fun columns() = "id, user_id, date, personal_day_number, focus_area, headline, greeting, body, suggested_action, affirmation, lucky_number, source, created_at"
+    suspend fun markPushed(userId: UUID, date: LocalDate) = dbQuery {
+        withConnection { conn ->
+            conn.update(
+                "update daily_insights set pushed_at = now() where user_id = ? and date = ?",
+                userId, date
+            )
+        }
+    }
+
+    private fun columns() = "id, user_id, date, personal_day_number, focus_area, headline, greeting, body, suggested_action, affirmation, lucky_number, source, created_at, pushed_at"
     private fun selectSql(whereClause: String) = "select ${columns()} from daily_insights $whereClause"
 
     private fun java.sql.ResultSet.toRecord(): DailyInsightRecord = DailyInsightRecord(
@@ -118,5 +129,6 @@ class DailyInsightRepository {
         luckyNumber = (getObject("lucky_number") as? Int),
         source = getString("source"),
         createdAt = getObject("created_at", OffsetDateTime::class.java),
+        pushedAt = getObject("pushed_at", OffsetDateTime::class.java),
     )
 }

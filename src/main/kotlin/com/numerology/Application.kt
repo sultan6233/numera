@@ -27,7 +27,6 @@ import com.numerology.routes.pushRoutes
 import com.numerology.routes.referenceRoutes
 import com.numerology.routes.subscriptionRoutes
 import com.numerology.scheduler.NightlyBatchJob
-import com.numerology.scheduler.scheduleDaily
 import com.numerology.scheduler.schedulePeriodic
 import com.numerology.security.EncryptionService
 import com.numerology.security.JwtService
@@ -91,7 +90,7 @@ fun Application.module(config: AppConfig) {
     val companionService = CompanionService(companionRepository)
     val insightService = InsightService(userRepository, computedNumbersRepository, dailyInsightRepository, openAiClient, fallbackBank)
     val subscriptionService = SubscriptionService(subscriptionRepository, webhookEventRepository, googlePlayClient)
-    val pushService = PushService(pushTokenRepository, dailyInsightRepository, fcmClient)
+    val pushService = PushService(pushTokenRepository, dailyInsightRepository, userRepository, fcmClient)
     val remoteConfigService = RemoteConfigService(remoteConfigRepository)
 
     routing {
@@ -111,12 +110,15 @@ fun Application.module(config: AppConfig) {
         ZoneId.of("UTC")
     }
 
-    val nightlyBatchJob = NightlyBatchJob(subscriptionRepository, userRepository, insightService, zoneId)
-    scheduleDaily("nightly-insight-batch", config.nightlyBatchHour, config.nightlyBatchMinute, zoneId) {
+    // Each user's own local time (profile `timezone`, falling back to this server
+    // default) decides when they're due, not a single global hour — see NightlyBatchJob.
+    val nightlyBatchJob = NightlyBatchJob(subscriptionRepository, userRepository, dailyInsightRepository, insightService, zoneId, config.nightlyBatchHour)
+    val sweepIntervalMs = 30 * 60_000L
+    schedulePeriodic("nightly-insight-sweep", intervalMs = sweepIntervalMs) {
         nightlyBatchJob.run()
     }
-    scheduleDaily("daily-push", config.dailyPushHour, config.dailyPushMinute, zoneId) {
-        pushService.sendDailyPushes(java.time.LocalDate.now(zoneId))
+    schedulePeriodic("daily-push-sweep", intervalMs = sweepIntervalMs) {
+        pushService.runPushSweep(zoneId, config.dailyPushHour)
     }
 
     val pubSubPuller = GooglePubSubPuller(googlePlayAuth, config.googlePubSubSubscription) { messageId, notification ->

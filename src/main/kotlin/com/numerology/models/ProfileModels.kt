@@ -24,7 +24,7 @@ data class SaveProfileRequest(
     val name: String? = null,
     val birthDate: String? = null, // "yyyy-MM-dd"
     val language: String? = null,
-    val timezone: String? = null,
+    val timezone: String? = null, // java.time.ZoneId string: IANA id ("Asia/Tashkent") or fixed offset ("+05:00") — drives when the nightly insight/push jobs fire for this user
     val computedNumbers: ComputedNumbersDto? = null,
 )
 
