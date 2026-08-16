@@ -19,7 +19,7 @@ fun Route.insightRoutes(insightService: InsightService) {
                 runCatching { LocalDate.parse(it) }.getOrElse {
                     return@get call.respond(HttpStatusCode.BadRequest, mapOf("error" to "date must be yyyy-MM-dd"))
                 }
-            } ?: LocalDate.now()
+            } // null falls through to the user's own local "today" inside InsightService
 
             val response = insightService.getOrGenerate(userId, date)
             call.respond(HttpStatusCode.OK, response)

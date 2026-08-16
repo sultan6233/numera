@@ -86,9 +86,15 @@ fun Application.module(config: AppConfig) {
     val googlePlayClient = GooglePlayClient(googlePlayAuth, config.googlePlayPackageName)
     val fcmClient = FcmClient(config.firebaseServiceAccountJsonPath, config.googleCloudProjectId)
 
+    // Fallback zone for users who haven't set a profile `timezone` yet — see InsightService/NightlyBatchJob.
+    val zoneId = runCatching { ZoneId.of(config.schedulerTimezone) }.getOrElse {
+        logger.warn("Invalid SCHEDULER_TIMEZONE '${config.schedulerTimezone}', falling back to UTC")
+        ZoneId.of("UTC")
+    }
+
     val profileService = ProfileService(userRepository, computedNumbersRepository)
     val companionService = CompanionService(companionRepository)
-    val insightService = InsightService(userRepository, computedNumbersRepository, dailyInsightRepository, openAiClient, fallbackBank)
+    val insightService = InsightService(userRepository, computedNumbersRepository, dailyInsightRepository, openAiClient, fallbackBank, zoneId)
     val subscriptionService = SubscriptionService(subscriptionRepository, webhookEventRepository, googlePlayClient)
     val pushService = PushService(pushTokenRepository, dailyInsightRepository, userRepository, fcmClient)
     val remoteConfigService = RemoteConfigService(remoteConfigRepository)
@@ -105,11 +111,6 @@ fun Application.module(config: AppConfig) {
     }
 
     // ---- Background jobs ----
-    val zoneId = runCatching { ZoneId.of(config.schedulerTimezone) }.getOrElse {
-        logger.warn("Invalid SCHEDULER_TIMEZONE '${config.schedulerTimezone}', falling back to UTC")
-        ZoneId.of("UTC")
-    }
-
     // Each user's own local time (profile `timezone`, falling back to this server
     // default) decides when they're due, not a single global hour — see NightlyBatchJob.
     val nightlyBatchJob = NightlyBatchJob(subscriptionRepository, userRepository, dailyInsightRepository, insightService, zoneId, config.nightlyBatchHour)

@@ -11,8 +11,10 @@ import com.numerology.repositories.DailyInsightRecord
 import com.numerology.repositories.DailyInsightRepository
 import com.numerology.repositories.UserRecord
 import com.numerology.repositories.UserRepository
+import com.numerology.scheduler.resolveUserZone
 import org.slf4j.LoggerFactory
 import java.time.LocalDate
+import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.UUID
 
@@ -24,17 +26,23 @@ class InsightService(
     private val dailyInsightRepository: DailyInsightRepository,
     private val openAiClient: OpenAiClient,
     private val fallbackBank: FallbackBank,
+    private val defaultZoneId: ZoneId,
 ) {
     /**
      * Main read path: return the cached insight for user+date, generating it
      * synchronously as a fallback if the nightly batch hasn't produced one yet
      * (e.g. user just subscribed, or batch hasn't run for this date range).
+     * `date` null means "the caller's own today" — resolved from the user's
+     * profile `timezone` (not the server's), so clients never need to send
+     * one on every request.
      */
-    suspend fun getOrGenerate(userId: UUID, date: LocalDate): DailyInsightResponse {
-        dailyInsightRepository.findByUserAndDate(userId, date)?.let { return it.toResponse() }
-
+    suspend fun getOrGenerate(userId: UUID, date: LocalDate?): DailyInsightResponse {
         val user = userRepository.findById(userId) ?: error("User not found: $userId")
-        val record = generateAndStore(user, date)
+        val resolvedDate = date ?: LocalDate.now(resolveUserZone(user, defaultZoneId))
+
+        dailyInsightRepository.findByUserAndDate(userId, resolvedDate)?.let { return it.toResponse() }
+
+        val record = generateAndStore(user, resolvedDate)
         return record.toResponse()
     }
 
