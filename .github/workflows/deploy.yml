@@ -7,10 +7,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: gradle:8.14.3-jdk21
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v4
-      - run: gradle shadowJar --no-daemon -x test
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ghcr.io/sultan6233/numera:latest
 
   deploy:
     needs: build
@@ -26,4 +37,5 @@ jobs:
           script: |
             cd /opt/numerology-backend
             git pull origin main
-            docker compose up -d --build
+            docker compose pull
+            docker compose up -d

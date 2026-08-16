@@ -17,7 +17,7 @@ services:
       retries: 10
 
   app:
-    build: .
+    image: ghcr.io/sultan6233/numera:latest
     restart: unless-stopped
     env_file:
       - .env
