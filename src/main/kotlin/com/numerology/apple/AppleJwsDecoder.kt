@@ -4,7 +4,8 @@ import kotlinx.serialization.json.Json
 import org.slf4j.LoggerFactory
 import java.util.Base64
 
-private val logger = LoggerFactory.getLogger("AppleJwsDecoder")
+@PublishedApi
+internal val logger = LoggerFactory.getLogger("AppleJwsDecoder")
 
 /**
  * Decodes the JWS payloads Apple sends (signedPayload, signedTransactionInfo,
@@ -20,8 +21,10 @@ private val logger = LoggerFactory.getLogger("AppleJwsDecoder")
  * for granting paid entitlements to money-sensitive actions.
  */
 object AppleJwsDecoder {
-    private val json = Json { ignoreUnknownKeys = true }
-    private val decoder = Base64.getUrlDecoder()
+    @PublishedApi
+    internal val json = Json { ignoreUnknownKeys = true }
+    @PublishedApi
+    internal val decoder = Base64.getUrlDecoder()
 
     inline fun <reified T> decodeUnverified(jws: String): T? {
         return try {

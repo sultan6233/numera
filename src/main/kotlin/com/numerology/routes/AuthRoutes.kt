@@ -5,6 +5,7 @@ import com.numerology.models.AnonymousAuthResponse
 import com.numerology.repositories.UserRepository
 import com.numerology.security.JwtService
 import io.ktor.http.HttpStatusCode
+import io.ktor.server.application.call
 import io.ktor.server.request.receive
 import io.ktor.server.response.respond
 import io.ktor.server.routing.Route

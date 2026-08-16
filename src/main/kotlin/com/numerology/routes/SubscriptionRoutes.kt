@@ -5,6 +5,7 @@ import com.numerology.plugins.authenticated
 import com.numerology.plugins.requireUserId
 import com.numerology.services.SubscriptionService
 import io.ktor.http.HttpStatusCode
+import io.ktor.server.application.call
 import io.ktor.server.request.receive
 import io.ktor.server.request.receiveText
 import io.ktor.server.response.respond
