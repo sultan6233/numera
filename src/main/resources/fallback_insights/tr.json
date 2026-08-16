@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "bank": {
+    "1": [
+      {
+        "headline": "Bugün başlamanın günü, beklemenin değil",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Bugün Kişisel Günün 1 — bu bir başlangıç günü, bitiş değil. Enerji, uzun zamandır ertelediğin bir şeyde ilk adımı atmaya elverişli.",
+          "Büyük bir şey olması gerekmiyor, tek bir somut adım yeterli. Bugünkü hava, başkalarının onayını beklemek yerine kendi kararını vermeyi destekliyor."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Belki bugün, ertelediğin o ilk adımı atmanın tam zamanı",
+        "affirmation": "Her şey hazır olmasa da başlamaya hakkım var",
+        "lucky_number": 1
+      },
+      {
+        "headline": "Kendi 'istiyorum'unu duyacağın bir gün",
+        "greeting": "{{name}}, bugün senin günün",
+        "body": [
+          "Kişisel Gün 1 genellikle 'ne istediğimi biliyorum' hissini keskinleştirir. Bugün bir şeyi değiştirme isteği netleşiyorsa, bu bir kapris değil, günün doğal ritminin parçası.",
+          "Enerji bağımsızlığı destekliyor: bugün uzlaşma aramaktansa kendi görüşüne dayanmak daha kolay. Daha önce cesaret edemediğin bir sınır çizmek için fena bir zemin değil."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Bugünkü ilk dürtüne dikkat etmekte fayda var — belki içinde bir ipucu vardır",
+        "affirmation": "Kendi kararıma güveniyorum",
+        "lucky_number": 10
+      },
+      {
+        "headline": "Bugün liderlik etmek her zamankinden kolay",
+        "greeting": "{{name}}, iyi günler",
+        "body": [
+          "1 sayılı bir gün genellikle bir öncekinden daha fazla kararlılık getirir. Birinin inisiyatif alması gereken bir görev varsa, bugün o kişi olmak için uygun bir an.",
+          "Kararlılığı başkalarına karşı sabırsızlıkla karıştırmamak önemli: günün enerjisi kendi ilerleyişinle ilgili, çevrendekilere baskı yapmakla değil."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Daha önce başkalarına devrettiğin o inisiyatifi bugün üstlenebilirsin",
+        "affirmation": "Kendim kalarak yol gösterebilirim",
+        "lucky_number": 19
+      },
+      {
+        "headline": "Dürüst bir 'hayır' için uygun bir zemin",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 1 genellikle kendi sınırların hakkındaki farkındalığı keskinleştirir. Uzun zamandır 'hayır' demen gerekiyorsa, bugün bu muhtemelen diğer günlerden daha kolay gelecek.",
+          "Bu bir çatışma değil, netlik meselesi: günün enerjisi, sakin ve öz bir şekilde ifade edildiğinde saldırganlık içermeyen doğrudanlığı destekliyor."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Daha önce nezaketen sustuğun bir yerde bugün 'hayır' demeyi deneyebilirsin",
+        "affirmation": "Netliğim kabalık değil, kendime özenim",
+        "lucky_number": 28
+      },
+      {
+        "headline": "Kendi temposunun günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "Bugünkü Kişisel Gün 1, başkalarının ritmine uymamakla ilgili. Bir şeyi 'alışıldığı gibi' değil de kendi tarzında yapma isteği hissediyorsan, bu günün enerjisinin bir parçası.",
+          "Dürüstse, popüler olmayan bir kararı bugün suçluluk duymadan kendine izin verebilirsin. Bugünkü hava bunu yargılamaktan çok desteklemeye daha yatkın."
+        ],
+        "focus_area": "yaratıcılık ve kendini ifade",
+        "suggested_action": "Belki bugün başkasının programı yerine kendi temponu seçmenin zamanı",
+        "affirmation": "Kendi temposunda ilerlemeye hakkım var",
+        "lucky_number": 1
+      }
+    ],
+    "2": [
+      {
+        "headline": "Bugün diyalog haklı çıkmaktan daha önemli",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 2 havayı yumuşatır ve ortaklığın değerini daha görünür kılar. Haklı çıkmaktan çok diğer kişiyi dinlemenin önemli olduğu bir konuşma varsa, bugün bunun için uygun bir an.",
+          "Günün enerjisi, tamamen kendinden ödün vermeyi gerektirmeyen uzlaşmaları destekliyor. Bazen hazır bir çözüm sunmak yerine soru sormak yeterli."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Belki bugün hazır bir cevap yerine bir soru sormakta fayda var",
+        "affirmation": "Kendim kalarak dinlemeyi biliyorum",
+        "lucky_number": 2
+      },
+      {
+        "headline": "Yumuşaklığın güç olduğu bir gün",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "2. günün havası genellikle zayıflıkla karıştırılır, ama aslında baskının işe yaramadığı yerlerde anlaşabilme yeteneğidir. Böyle bir yumuşaklık bugün engel olmaktan çok yardımcı olur.",
+          "Kendi bakış açından vazgeçmeden başkasının bakış açısını fark etmek için iyi bir gün — ona sadece yanında yer açmak yeterli."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Belki karşındakinin sözünü kesmeden sonuna kadar konuşmasına izin vermekte fayda var",
+        "affirmation": "Yumuşaklığım gücümü ortadan kaldırmıyor",
+        "lucky_number": 11
+      },
+      {
+        "headline": "Bedeni dinlemek için iyi bir gün",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 2 genellikle her zamankinden daha sessiz hissettirir — bu normal bir ritim, bir düşüş değil. Günün enerjisi dünyaya bir şey kanıtlamaktan çok kendini dinlemeye elverişli.",
+          "Beden bir mola istiyorsa, bugünkü hava onun yanında. Günü mutlaka bir üretkenlik kahramanlığına dönüştürmen gerekmiyor."
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Bugün suçluluk duymadan kendine bir mola verebilirsin",
+        "affirmation": "Yavaşlamama izin veriyorum",
+        "lucky_number": 20
+      },
+      {
+        "headline": "Bugün ortaklık tek başına çabadan güçlü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "2. gün genellikle 'yalnız ben' yerine 'biz'in faydasını öne çıkarır. Tek başına sürüklediğin bir görev varsa, kimin dahil edilebileceğine bakmakta fayda var.",
+          "Her yardım isteği bir zayıflık değildir. Bugünün enerjisi, yükü paylaşmayı bilen kişiyi desteklemeye daha yatkın."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Belki bugün daha önce tek başına hallettiğin bir konuda yardım istemenin zamanı",
+        "affirmation": "Destek istemek de benim gücüm",
+        "lucky_number": 29
+      },
+      {
+        "headline": "Küçük nazik jestlerin günü",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 2 detayları iyi hisseder — kısa bir mesaj, zamanında sorulan bir soru, sebepsiz gösterilen ilgi. Böyle küçük şeyler bugün büyük jestlerden daha güçlü etki eder.",
+          "Çevrende şu an tam olarak senin ilginin işine yarayacağı kişiye bakmakta fayda var — büyük olması gerekmiyor, samimi olması yeterli."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Uzun zamandır düşündüğün ama cesaret edemediğin birine bugün yazabilirsin",
+        "affirmation": "İnsanlara olan ilgim önemli",
+        "lucky_number": 2
+      }
+    ],
+    "3": [
+      {
+        "headline": "Bugün kendi sesinle konuşmak güzel",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 3, kendini ifade etmek için en kolay günlerden biri. Uzun zamandır önemli bir şeyi yüksek sesle söylemek, bir işini göstermek ya da sadece fark edilmek istiyorsan, bugün uygun bir zemin.",
+          "Günün enerjisi hafifliği destekliyor: her şeyin ciddi olması gerekmiyor, bazen sürecin tadını çıkarmak yeterli."
+        ],
+        "focus_area": "yaratıcılık ve kendini ifade",
+        "suggested_action": "Belki bugün genelde kendine sakladığın bir şeyi birine göstermenin zamanı",
+        "affirmation": "Duyulmaya hakkım var",
+        "lucky_number": 3
+      },
+      {
+        "headline": "Kolay sohbet günü",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "3. günün bugünkü havası genellikle iletişimi her zamankinden kolaylaştırır. Kelimeler daha hızlı bulunur, şakalar daha isabetli olur — bunu kullanmakta fayda var, sessiz kalmak yerine.",
+          "Uzun zamandır konuşmadığın biriyle iletişime geçmek için iyi bir gün — sohbet muhtemelen gergin değil sıcak geçecek."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Uzun süredir iletişimde olmadığın birine bugün yazabilir ya da arayabilirsin",
+        "affirmation": "İnsanların yanında kendim olmak benim için kolay",
+        "lucky_number": 12
+      },
+      {
+        "headline": "Bugün fikirler her zamankinden parlak",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 3 sık sık beklenmedik fikirler getirir — iş, hobi ya da bir şeyi başka türlü söylemenin bir yolu hakkında. Uygulamak için henüz zaman olmasa bile, onları not etmekte fayda var.",
+          "Günün enerjisi anında bir sonuç talep etmiyor — iç eleştirmen olmadan hayal kurmaya izin vermek yeterli."
+        ],
+        "focus_area": "yaratıcılık ve kendini ifade",
+        "suggested_action": "Bugün aklına gelen fikri hemen değerlendirmeden not edebilirsin",
+        "affirmation": "Fikirlerim ilgiyi hak ediyor",
+        "lucky_number": 21
+      },
+      {
+        "headline": "Komik görünmekten korkmamanın günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "3. gün iç ciddiyeti azaltır ve kendine karşı bile mizah anlayışını daha erişilebilir kılar. Aksaklıkları trajedi olarak görmemek için iyi bir zemin.",
+          "Bugün bir şey planlandığı gibi gitmezse, günün enerjisi buna her zamankinden daha hafif yaklaşmayı öneriyor."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Kendine kızmak yerine bugün kendi beceriksizliğine gülebilirsin",
+        "affirmation": "Mükemmel olmamaya izin veriyorum",
+        "lucky_number": 30
+      },
+      {
+        "headline": "Bugün yaratıcılık analizden daha iyi iyileştirir",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 3'te zihin genellikle mantıktan çok yaratıcılık yoluyla dinlenir — çizim, müzik, yemek pişirme, elle yapılan herhangi bir iş. Kendini toparlamak için tam olarak bu yolu seçmekte fayda var.",
+          "Gerginlik biriktiyse, bugünkü hava nedenleri analiz etmekten çok bir şeyler yaratma süreciyle onu gidermeye daha yatkın."
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Belki bugün her şeyi düşünmeye çalışmak yerine yaratıcı bir uğraş seçmekte fayda var",
+        "affirmation": "Sevdiğim şeyi yaparak kendimi toparlamayı biliyorum",
+        "lucky_number": 3
+      }
+    ],
+    "4": [
+      {
+        "headline": "Bugün düzen hızdan daha önemli",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 4, bir atılım günü değil, temel atma günüdür. Bugünün enerjisi, sonunda istikrarla karşılığını verecek yöntemli, küçük de olsa adımları destekliyor.",
+          "İşlerde, evraklarda ya da sadece programında uzun süredir birikmiş kaosu düzene sokmak için iyi bir an."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Uzun süredir 'sonraya' bıraktığın bir şeyi bugün halledebilirsin",
+        "affirmation": "İstikrarım da bir ileri adımdır",
+        "lucky_number": 4
+      },
+      {
+        "headline": "Dürüst bir plan günü",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "4. günün bugünkü havası ayık bir değerlendirme için uygun: gerçekten yetiştirebildiğin ne, bırakmanın zamanı gelen ne. Planladığın her şeyin şimdi olması gerekmiyor.",
+          "Günün enerjisi, güzel ama gerçekçi olmayan sözler yerine dürüst bir planı ödüllendirmeye daha yatkın."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Belki bugün yapılacaklar listeni gözden geçirip sadece gerçekten önemli olanı bırakmakta fayda var",
+        "affirmation": "Dürüst planım, mükemmel ama imkansız olandan güçlüdür",
+        "lucky_number": 13
+      },
+      {
+        "headline": "Bugün beden düzen istiyor",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 4 genellikle bedende istikrar talebi olarak kendini gösterir — düzenli uyku, yemek, molalar. Kaotik bir ritim bugün her zamankinden daha ağır hissettirir.",
+          "Küçük bir rutin sıkıcılık değil, tam olarak bugün kendine gösterdiğin bir özen biçimidir."
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Bugün her zamankinden biraz daha erken yatabilirsin",
+        "affirmation": "Düzenime özen göstermek de kendime özen göstermektir",
+        "lucky_number": 22
+      },
+      {
+        "headline": "İlişkilerde güvenilirlik günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "4. günde önemli olan duyguların yüksekliği değil, sürekliliktir — zamanında gelmek, sözü tutmak, drama yaratmadan yanında olmak. Bunlar bugün göründüğünden daha çok anlam taşıyor.",
+          "Birisi için istikrarın önemliyse, bugün bunu sözlerle değil davranışlarla göstermek için iyi bir gün."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Ertelemesi kolay olan küçük bir sözünü bugün tutabilirsin",
+        "affirmation": "Sürekliliğim bir sevgi biçimidir",
+        "lucky_number": 31
+      },
+      {
+        "headline": "Bugün yavaş olmak kötü demek değil",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 4 atılımlarla değil, istikrarlı bir tempoyla ilgilidir. Bugün her şey istediğinden daha yavaş ilerliyorsa, bu endişelenecek bir şey değil, sadece bu günün bir özelliği.",
+          "Günün enerjisi acele etmekten çok sabrı ödüllendiriyor."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Belki bugün tempoyu düşürüp kendinden rekorlar talep etmemekte fayda var",
+        "affirmation": "Bugünkü tempom da doğru",
+        "lucky_number": 4
+      }
+    ],
+    "5": [
+      {
+        "headline": "Bugün değişimler daha iyiye doğru",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 5, en hareketli günlerden biridir. Enerji, başka bir gün riskli görünecek yeni deneyimlere, ortam değişikliğine, spontane kararlara elverişlidir.",
+          "Bir şeyi değiştirme isteği doğduysa — güzergâh, alışkanlık, akşam planı — bugünkü hava bunu tutarsızlık diye cezalandırmaktan çok desteklemeye yatkın."
+        ],
+        "focus_area": "yaratıcılık ve kendini ifade",
+        "suggested_action": "Bugün daha önce hiç yapmadığın bir şeyi deneyebilirsin",
+        "affirmation": "Yeni deneyimlere açığım",
+        "lucky_number": 5
+      },
+      {
+        "headline": "Planın bozulabileceği bir gün",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "5. günün bugünkü havası katı çerçeveleri sevmez. Program aniden değişirse, bu bir felaket değil, esneklik isteyen günün enerjisinin bir parçası.",
+          "Genellikle her şeyin dakikasına kadar planlandığı yerlerde kendine biraz doğaçlamaya izin vermekte fayda var."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Belki bugün alışılmış plandan en azından küçük bir konuda sapmakta fayda var",
+        "affirmation": "Esneklik de benim gücüm",
+        "lucky_number": 14
+      },
+      {
+        "headline": "Bugün sıkılmak bir şeyi değiştirme sinyali",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 5'te tekdüzelik her zamankinden daha keskin hissedilir. Bir şey uzun süredir bıktırdıysa, bu kendini eleştirme sebebi değil, günün enerjisinin yeni bir açı denemen için verdiği bir ipucu.",
+          "Her şeyi bir anda değiştirmen gerekmiyor — alışıldık günde tek bir taze detay yeterli."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Bugün alışılmış düzenine küçük ve yeni bir şey katabilirsin",
+        "affirmation": "Değişim istemeye hakkım var",
+        "lucky_number": 23
+      },
+      {
+        "headline": "İletişimde kolaylık günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "Kişisel Gün 5 genellikle iletişimi daha canlı hale getirir — tanışmak daha kolay, yeni tanıştığın biriyle sohbeti sürdürmek daha kolay. Günün enerjisi yeni bağlantılara elverişli.",
+          "Kendini alışılmış çevrende kapatmamakta, rastgele bir sohbete şans vermekte fayda var."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Daha önce cesaret edemediğin biriyle bugün konuşmaya başlayabilirsin",
+        "affirmation": "Yeni insanlar hayatıma tazelik katıyor",
+        "lucky_number": 32
+      },
+      {
+        "headline": "Bugün hareket dinginlikten daha iyi iyileştirir",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "5. günde beden genellikle tam olarak hareket ister — yürüyüş, güzergâh değişikliği, biraz fiziksel aktivite. Uzun süreli hareketsizlik bugün her zamankinden daha ağır hissettirir.",
+          "Plan farklı olsa bile, alışılmış dört duvardan en azından kısa bir süreliğine çıkmakta fayda var."
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Bugün tanımadığın bir güzergâhta yürüyüş yapabilirsin",
+        "affirmation": "Hareket bana enerjimi geri veriyor",
+        "lucky_number": 5
+      }
+    ],
+    "6": [
+      {
+        "headline": "Bugün ev ilgi istiyor",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 6, öncelikle yakınlarına ve etrafındaki alana özen gösterme günüdür. Bugünün enerjisi evi ve ilişkileri daha sıcak yapan her şeye elverişlidir.",
+          "Uzun süredir ziyaret etmeyi ya da sadece dinlemeyi ertelediğin birine zaman ayırmak için iyi bir an."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Uzun zamandır düşündüğün birini bugün arayabilir ya da ziyaret edebilirsin",
+        "affirmation": "Yakınlarıma özen göstermek beni de doyuruyor",
+        "lucky_number": 6
+      },
+      {
+        "headline": "Kendine de özen göstereceğin bir gün",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "6. günde tüm özeni dışarı yöneltip kendini unutmak kolaydır. Günün enerjisi, bu dikkatin en azından bir kısmı suçluluk duymadan kendine geri dönerse daha iyi işler.",
+          "Kendine dürüstçe sormak için iyi bir zemin: bugün gerçekten neye ihtiyacım var?"
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Belki bugün sadece başkaları için değil, kendin için de hoş bir şey yapmakta fayda var",
+        "affirmation": "Ben de başkalarına verdiğim özeni hak ediyorum",
+        "lucky_number": 15
+      },
+      {
+        "headline": "Bugün uyum mükemmellikten daha önemli",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 6 sık sık her şeyi mükemmel yapma isteğini tetikler — evde, ilişkilerde, işlerde. Ama günün enerjisi mükemmeliyetçilikten çok uyuma daha istekli karşılık verir.",
+          "Bazen 'yeterince iyi' bugün için zaten harika bir sonuçtur."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Bugün her şeyi mükemmele ulaştırmamaya kendine izin verebilirsin",
+        "affirmation": "Yeterince iyi olmak da iyidir",
+        "lucky_number": 24
+      },
+      {
+        "headline": "İkili dürüst bir konuşma günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "6. günde ev ve ilişki konuları ön plana çıkar. Ertelenen bir konuşma varsa, bugün onu bir öfke anında değil, yumuşak bir şekilde gündeme getirmek için uygun bir zemin.",
+          "Günün enerjisi sert bir tondan çok sıcak bir tonu desteklemeye daha yatkın."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Uzun süredir ertelediğin konuyu bugün dikkatlice gündeme getirebilirsin",
+        "affirmation": "Özenden doğan dürüstlük yaklaştırır, uzaklaştırmaz",
+        "lucky_number": 33
+      },
+      {
+        "headline": "Bugün rahatlık lüks değil, ihtiyaçtır",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 6, basit günlük zevklere iyi karşılık verir — lezzetli yemek, temiz bir alan, evde sakin bir akşam. Bunlar küçük şeyler değil, bugün seni gerçekten yenileyen şeylerdir.",
+          "Sadece işler için değil, tam olarak bu rahatlık için de biraz zaman ayırmakta fayda var."
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Bugün kendine acelesiz, sakin bir akşam ayarlayabilirsin",
+        "affirmation": "Yarattığım rahatlık, kendime gösterdiğim bir özendir",
+        "lucky_number": 6
+      }
+    ],
+    "7": [
+      {
+        "headline": "Bugün sessizlik cevaplardan daha faydalı",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 7, mola ve içsel analiz günüdür. Bugünün enerjisi etkinlikten çok sessizliğe elverişli: biraz kendi başına kalmak faydalı olur.",
+          "Gün her zamankinden daha sessiz hissettiriyorsa, bu bir düşüş değil, tam olarak bugünün sayısının doğal ritmidir."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Bugün telefonsuz ve görevsiz, biraz sessizlikte kalmak için zaman ayırabilirsin",
+        "affirmation": "Sessizlikte kendimi daha net duyuyorum",
+        "lucky_number": 7
+      },
+      {
+        "headline": "Kendine dürüst sorular günü",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "7. günde yaptığın şey ile gerçekten istediğin şey arasındaki tutarsızlıkları fark etmek daha kolaydır. Günün enerjisi böyle bir içsel kontrolü destekler.",
+          "Hemen bir şeyi değiştirmen gerekmiyor — fark ettiğini dürüstçe adlandırman yeterli."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Uzun zamandır kaçındığın bir soruya bugün kendine dürüstçe cevap verebilirsin",
+        "affirmation": "Kendime dürüstçe bakmaktan korkmuyorum",
+        "lucky_number": 16
+      },
+      {
+        "headline": "Bugün daha az insan daha iyi",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 7 genellikle beraberlik ihtiyacını azaltır. Yalnız kalmak istiyorsan, bu bir uzaklaşma değil, günün enerjisinin doğal bir parçası.",
+          "Bugün kendini zorla sosyal olmaya zorlamamakta fayda var."
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Böyle bir ihtiyaç hissediyorsan, bugün iletişim miktarını sakince azaltabilirsin",
+        "affirmation": "Yalnız kalma hakkım, birliktelik hakkım kadar önemli",
+        "lucky_number": 25
+      },
+      {
+        "headline": "Satır aralarını okuma günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "7. günde sezgi genellikle mantıktan daha keskindir. Gerçekler normal görünse bile bir şey his düzeyinde 'oturmuyorsa', bu sinyale kulak vermekte fayda var.",
+          "Günün enerjisi gözlemle iyi, aceleci sonuçlarla kötü çalışır."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Bugün sezgine her zamankinden biraz daha fazla güvenebilirsin",
+        "affirmation": "İçsel sesime güveniyorum",
+        "lucky_number": 34
+      },
+      {
+        "headline": "Bugün bilgi telaştan daha önemli",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 7, çalışmak, okumak, uzun zamandır ilgini çeken bir konuyu incelemek için uygundur. Günün enerjisi çoklu görevden çok derinlemesine düşünmeyi ödüllendirir.",
+          "Bugün tek bir şey seçip her zamankinden daha derine dalmakta fayda var."
+        ],
+        "focus_area": "yaratıcılık ve kendini ifade",
+        "suggested_action": "Uzun zamandır daha derinlemesine anlamak istediğin bir konuya bugün zaman ayırabilirsin",
+        "affirmation": "Derinlik beni telaştan daha çok ilgilendiriyor",
+        "lucky_number": 7
+      }
+    ],
+    "8": [
+      {
+        "headline": "Bugün kararlılık sonuç veriyor",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 8, ölçek ve somut sonuçlar günüdür. Bugünün enerjisi, şüphe değil güven gerektiren işlerde kararlı adımlara elverişlidir.",
+          "Tam da önemi yüzünden ertelediğin bir görev varsa, bugün nihayet ona başlamak için uygun bir zemin."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Ölçeği yüzünden ertelediğin o önemli görevle bugün ilgilenebilirsin",
+        "affirmation": "Büyük görevlerin üstesinden gelebilirim",
+        "lucky_number": 8
+      },
+      {
+        "headline": "Katkını değerlendireceğin bir gün",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "8. günde önemli bir işe zaten ne kadar emek verdiğini ayık bir şekilde görmek daha kolaydır. Günün enerjisi, aşırı alçakgönüllülük olmadan sonuçlarının dürüst bir değerlendirmesini destekler.",
+          "Hemen bir sonraki hedefe geçmek yerine, zaten başardığın şeyi kendine kabul ettirmekte fayda var."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Belki bugün zaten ulaştığın bir sonucu kendin için not etmekte fayda var",
+        "affirmation": "Yaptıklarımla gurur duymama izin veriyorum",
+        "lucky_number": 17
+      },
+      {
+        "headline": "Bugün denge yarıştan daha önemli",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 8 bazen aşırı çalışmaya iter — çok fazla 'yapmam lazım'. Günün enerjisi güç verir, ama onu bitmeyen bir yarışa dönüştürmemeni de ister.",
+          "Bugünkü tempoyu kontrol etmekte fayda var: bu kendinden emin bir ilerleyiş mi yoksa aşırı yüklenme mi?"
+        ],
+        "focus_area": "enerji ve iyi oluş",
+        "suggested_action": "Bugün görevler arasında bilinçli olarak biraz dinlenme zamanı bırakabilirsin",
+        "affirmation": "Gücüm tükenmeyi gerektirmiyor",
+        "lucky_number": 26
+      },
+      {
+        "headline": "Statü hakkında dürüst bir konuşma günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "8. günde para, statü ve takdir konuları her zamankinden daha yüksek sesle konuşulur. Koşullar, ücret ya da rol hakkında ertelenen bir konuşma varsa, günün enerjisi doğrudanlığı desteklemeye daha yatkın.",
+          "Duruşunu kendinden emin ama karşındakine baskı yapmadan ifade etmek önemli."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Daha önce utandığın için sustuğun bir yerde bugün duruşunu belirtebilirsin",
+        "affirmation": "Değerim hakkında konuşmaya hakkım var",
+        "lucky_number": 35
+      },
+      {
+        "headline": "Bugün disiplin senin lehine çalışıyor",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 8, yapıya iyi karşılık verir: gün için net bir plan genellikle spontanlıktan daha fazla sonuç getirir. Günün enerjisi net hedefleri sever.",
+          "Bugün için 2-3 öncelik yazıp odağını tam olarak onlarda tutmakta fayda var."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Bugün 2-3 ana önceliğini belirleyip geri kalanına dağılmayabilirsin",
+        "affirmation": "Odak bana güç veriyor",
+        "lucky_number": 8
+      }
+    ],
+    "9": [
+      {
+        "headline": "Bugün döngüleri kapatmak için iyi",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 9, yeni bir başlangıç günü değil, tamamlanma günüdür. Bugünün enerjisi yarım kalanı kapatmaya elverişlidir: bitirmek, vedalaşmak, bırakmak.",
+          "Bir şey uzun süredir tükendiyse, bugün bunu dürüstçe kabul etmek için uygun bir zemin."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Uzun süredir yarım kalan bir şeyi bugün tamamlayabilirsin",
+        "affirmation": "Tükenmiş olanı bırakmayı biliyorum",
+        "lucky_number": 9
+      },
+      {
+        "headline": "Karşılık beklemeden vermenin günü",
+        "greeting": "İyi günler {{name}}",
+        "body": [
+          "9. günde karşılığında bir şey beklemeden yardım etmek daha doğaldır. Günün enerjisi cömertliği destekler — ilgi, zaman, güzel bir sözle, hesapsız.",
+          "Bugün kime özel bir sebep olmadan yardım edebileceğine dikkat etmekte fayda var."
+        ],
+        "focus_area": "ilişkiler",
+        "suggested_action": "Bugün özel bir sebep olmadan biri için iyi bir şey yapabilirsin",
+        "affirmation": "Cömertliğim bana kendi yoluyla geri dönüyor",
+        "lucky_number": 18
+      },
+      {
+        "headline": "Bugün bakış açın her zamankinden geniş",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 9 genellikle olaylara biraz daha geniş bir bakış açısı getirir — dün büyük bir sorun gibi görünen şey bugün artık o kadar önemli görünmüyor.",
+          "Uzayan bir konuya biraz mesafeden bakmak için bu zeminden yararlanmakta fayda var."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Bugün eski bir soruna biraz daha mesafeden bakabilirsin",
+        "affirmation": "Tabloyu daha geniş görmeyi biliyorum",
+        "lucky_number": 27
+      },
+      {
+        "headline": "Kendini de kapsayan bir affetme günü",
+        "greeting": "Merhaba {{name}}",
+        "body": [
+          "9. günde eski kırgınlıkları, kendine olanlar dahil, bırakmak daha kolaydır. Günün enerjisi geçmişi tutmak yerine tamamlanmaya doğru çalışır.",
+          "Hemen 'affedip unutman' gerekmiyor — onu taşımayı bırakmana izin vermen yeterli."
+        ],
+        "focus_area": "iç gelişim",
+        "suggested_action": "Belki bugün eski bir kırgınlığı zihninden bırakmakta fayda var",
+        "affirmation": "Geçmişi bırakmama izin veriyorum",
+        "lucky_number": 36
+      },
+      {
+        "headline": "Bugün özetler yeni başlangıçlardan daha önemli",
+        "greeting": "Selam {{name}}",
+        "body": [
+          "Kişisel Gün 9, sıfırdan bir şey başlamak için en iyi zaman değil, ama bir aşamayı özetlemek için mükemmel. Günün enerjisi düşünmeyi destekliyor.",
+          "Katedilen yola dönüp bakmakta fayda var — eleştirmek için değil, zaten ne kadar çok şey yapıldığını dürüstçe görmek için."
+        ],
+        "focus_area": "iş ve hedefler",
+        "suggested_action": "Bugün hemen yeni bir şeye atılmak yerine küçük bir aşamayı özetleyebilirsin",
+        "affirmation": "Katettiğim yolu değerli bulmayı biliyorum",
+        "lucky_number": 9
+      }
+    ]
+  }
+}

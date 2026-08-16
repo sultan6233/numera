@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "bank": {
+    "1": [
+      {
+        "headline": "Today is for starting, not waiting",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Today is your Personal Day 1 — a day for beginnings, not endings. The energy favors taking that first step on something you've been putting off.",
+          "It doesn't have to be dramatic — one concrete action is enough. Today's backdrop supports deciding for yourself rather than waiting for someone else's approval."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "Maybe today's the day to take that first step you've been postponing",
+        "affirmation": "I have the right to begin, even if not everything is ready yet",
+        "lucky_number": 1
+      },
+      {
+        "headline": "A day to hear your own 'I want'",
+        "greeting": "{{name}}, this is your day",
+        "body": [
+          "Personal Day 1 usually sharpens the feeling of 'I know what I want.' If a clear urge to change something shows up today, it's not a whim — it's part of the day's natural rhythm.",
+          "The energy favors independence: it's easier today to trust your own judgment than to search for compromise. It's a decent backdrop for setting a boundary you haven't had the nerve to before."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "Worth paying attention to your first impulse today — it might be a clue",
+        "affirmation": "I trust my own decision",
+        "lucky_number": 10
+      },
+      {
+        "headline": "Leading comes easier today",
+        "greeting": "{{name}}, good day to you",
+        "body": [
+          "A day with the number 1 usually brings more decisiveness than the day before. If there's a task where someone needs to take the initiative — today's a convenient moment to be that person.",
+          "Just don't confuse decisiveness with impatience toward others: today's energy is about your own forward motion, not about pushing people around."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could take on the initiative you used to hand off to others",
+        "affirmation": "I'm capable of leading while staying true to myself",
+        "lucky_number": 19
+      },
+      {
+        "headline": "A good backdrop for an honest 'no'",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 1 often sharpens your sense of your own boundaries. If you've needed to say 'no' for a while now, it'll likely come easier today than on other days.",
+          "It's not about conflict — it's about clarity: today's energy supports directness without aggression, as long as you keep it calm and to the point."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "You could try saying 'no' somewhere you'd normally stay quiet out of politeness",
+        "affirmation": "My clarity is self-care, not rudeness",
+        "lucky_number": 28
+      },
+      {
+        "headline": "A day for your own pace",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "Today's Personal Day 1 is about not bending to someone else's rhythm. If you feel like doing something your own way instead of 'the usual way,' that's part of today's energy.",
+          "You can allow yourself an unpopular choice today without guilt, as long as it's honest. Today's backdrop is more likely to support that than judge it."
+        ],
+        "focus_area": "creativity & self-expression",
+        "suggested_action": "Maybe today's the day to choose your own pace over someone else's schedule",
+        "affirmation": "I have the right to move at my own pace",
+        "lucky_number": 1
+      }
+    ],
+    "2": [
+      {
+        "headline": "Today, dialogue matters more than being right",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 2 softens the backdrop and makes the value of partnership more visible. If there's a conversation brewing where listening matters more than proving your point — today's a good moment for it.",
+          "The energy favors compromises that don't require giving up entirely on yourself. Sometimes it's enough to ask a question instead of jumping straight to a solution."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "Maybe ask a question today instead of offering a ready-made answer",
+        "affirmation": "I know how to listen and still stay myself",
+        "lucky_number": 2
+      },
+      {
+        "headline": "A day where softness is strength",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "Today's Day 2 backdrop is often mistaken for weakness, but it's really the ability to negotiate where force doesn't work. That kind of softness is more likely to help than hurt today.",
+          "A good day to notice someone else's point of view without giving up your own — just let it sit alongside yours."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "Maybe let the other person finish their thought without interrupting",
+        "affirmation": "My softness doesn't cancel out my strength",
+        "lucky_number": 11
+      },
+      {
+        "headline": "A good day to listen to your body",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 2 often feels quieter than usual — that's a normal rhythm, not a slump. Today's energy favors listening to yourself over proving something to the world.",
+          "If your body is asking for a pause, today's backdrop is on its side. You don't have to turn the day into a productivity feat."
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "You can allow yourself a pause today without guilt",
+        "affirmation": "I allow myself to slow down",
+        "lucky_number": 20
+      },
+      {
+        "headline": "Today, partnership beats solo effort",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "Day 2 usually highlights the value of 'we' over 'me, alone.' If there's a task you've been carrying by yourself, it's worth considering who could help.",
+          "Not every request for help is weakness. Today's energy is more likely to support someone who knows how to share the load."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "Maybe today's the day to ask for help with something you've been handling solo",
+        "affirmation": "Asking for support is also my strength",
+        "lucky_number": 29
+      },
+      {
+        "headline": "A day for small kind gestures",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 2 is good at noticing details — a short message, a well-timed question, attention with no particular reason. Small things like that carry more weight today than grand gestures.",
+          "Worth thinking about who in your circle could use exactly your kind of care right now — it doesn't have to be big, just genuine."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "You could message someone you've been thinking about but haven't reached out to",
+        "affirmation": "My attention to people matters",
+        "lucky_number": 2
+      }
+    ],
+    "3": [
+      {
+        "headline": "Today it's good to sound like yourself",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 3 is one of the easiest days for self-expression. If you've wanted to say something important out loud, show your work, or simply be noticed — today's backdrop is favorable.",
+          "The energy supports lightness: not everything needs to be serious, sometimes it's enough to just enjoy the process."
+        ],
+        "focus_area": "creativity & self-expression",
+        "suggested_action": "Maybe show someone today something you usually keep to yourself",
+        "affirmation": "I have the right to be heard",
+        "lucky_number": 3
+      },
+      {
+        "headline": "A day for easy conversation",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "Today's Day 3 backdrop usually makes communication easier than usual. Words come faster, jokes land better — worth using that instead of sitting in silence.",
+          "A good day to reach out to someone you haven't talked to in a while — the conversation is more likely to feel warm than awkward."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "You could message or call someone you haven't been in touch with for a while",
+        "affirmation": "It's easy for me to be myself around people",
+        "lucky_number": 12
+      },
+      {
+        "headline": "Today ideas shine brighter than usual",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 3 often brings unexpected ideas — about work, a hobby, or just a new way of saying something. Worth writing them down, even if you're not ready to act on them yet.",
+          "Today's energy doesn't demand an immediate result — it's enough to let yourself daydream without an inner critic."
+        ],
+        "focus_area": "creativity & self-expression",
+        "suggested_action": "Maybe write down whatever idea comes to mind today without judging it right away",
+        "affirmation": "My ideas deserve attention",
+        "lucky_number": 21
+      },
+      {
+        "headline": "A day to not be afraid of looking silly",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "Day 3 lowers your inner seriousness and makes a sense of humor — including about yourself — more accessible. A good backdrop for not treating slip-ups as a tragedy.",
+          "If something doesn't go according to plan today, the day's energy suggests taking it lighter than usual."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "You could laugh at your own awkwardness today instead of beating yourself up over it",
+        "affirmation": "I allow myself to be imperfect",
+        "lucky_number": 30
+      },
+      {
+        "headline": "Today creativity heals better than overthinking",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "On Personal Day 3 your mind usually rests better through creativity than through logic — drawing, music, cooking, anything hands-on. Worth choosing that as your way to recharge.",
+          "If tension has built up, today's backdrop is more likely to release it through making something than through analyzing the cause."
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "Maybe pick a creative activity today instead of trying to think everything through",
+        "affirmation": "I know how to recharge through what I love doing",
+        "lucky_number": 3
+      }
+    ],
+    "4": [
+      {
+        "headline": "Today order matters more than speed",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 4 is a day for foundations, not sprints. Today's energy favors methodical, even small, steps that pay off later in stability.",
+          "A good moment to bring order to something that's been piling into chaos — paperwork, tasks, or just your schedule."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could sort out something you've been putting off 'for later'",
+        "affirmation": "My consistency is also a form of moving forward",
+        "lucky_number": 4
+      },
+      {
+        "headline": "A day for an honest plan",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "Today's Day 4 backdrop is well suited for a sober assessment: what you can realistically get done, and what's time to let go of. Not everything you planned has to happen right now.",
+          "Today's energy is more likely to reward an honest plan than beautiful but unrealistic promises to yourself."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "Maybe review your to-do list today and keep only what's actually important",
+        "affirmation": "My honest plan beats a perfect but impossible one",
+        "lucky_number": 13
+      },
+      {
+        "headline": "Today your body asks for routine",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 4 often shows up in the body as a request for stability — regular sleep, meals, breaks. A chaotic rhythm feels heavier than usual today.",
+          "A bit of routine isn't boring today — it's a form of taking care of yourself."
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "You could go to bed a little earlier than usual today",
+        "affirmation": "Taking care of my routine is also taking care of myself",
+        "lucky_number": 22
+      },
+      {
+        "headline": "A day for reliability in relationships",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "On Day 4, it's not loud feelings that matter most, but consistency — showing up on time, keeping a promise, being there without drama. Things like that mean more today than they might seem to.",
+          "If someone values your reliability, today's a good day to show it through action rather than words."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "You could keep a small promise today that would've been easy to put off",
+        "affirmation": "My consistency is a form of love",
+        "lucky_number": 31
+      },
+      {
+        "headline": "Today, slow doesn't mean bad",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 4 isn't about bursts of speed, but a steady pace. If everything moves slower than you'd like today, that's not a reason to worry — it's just a feature of this particular day.",
+          "Today's energy rewards patience more than rushing."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "Maybe slow your pace today and not demand records from yourself",
+        "affirmation": "My pace today is the right one too",
+        "lucky_number": 4
+      }
+    ],
+    "5": [
+      {
+        "headline": "Today, change is for the better",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 5 is one of the most restless days. The energy favors new experiences, a change of scenery, spontaneous decisions that would feel risky on another day.",
+          "If you feel the urge to change something — a route, a habit, tonight's plan — today's backdrop is more likely to support it than punish you for being inconsistent."
+        ],
+        "focus_area": "creativity & self-expression",
+        "suggested_action": "You could try something today you haven't done before",
+        "affirmation": "I'm open to new experiences",
+        "lucky_number": 5
+      },
+      {
+        "headline": "A day when the plan can bend",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "Today's Day 5 backdrop doesn't like rigid frames. If the schedule suddenly shifts, that's not a disaster — it's part of the day's energy asking for flexibility.",
+          "Worth allowing yourself a bit of improvisation where everything's usually planned to the minute."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "Maybe deviate from your usual plan today, even in one small thing",
+        "affirmation": "Flexibility is also my strength",
+        "lucky_number": 14
+      },
+      {
+        "headline": "Today, boredom is a sign to change something",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "On Personal Day 5, monotony feels sharper than usual. If something's gotten stale, that's not a reason to be hard on yourself — it's the day's energy nudging you to try a new angle.",
+          "You don't have to change everything at once — one fresh detail in your usual day is enough."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could bring one small new thing into your usual routine today",
+        "affirmation": "I have the right to want change",
+        "lucky_number": 23
+      },
+      {
+        "headline": "A day for ease in conversation",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "Personal Day 5 usually makes communication livelier — it's easier to meet people, easier to keep a conversation going with someone you barely know. Today's energy favors new connections.",
+          "Worth not staying closed off in your usual circle — give a random conversation a chance."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "You could talk to someone today you wouldn't normally approach",
+        "affirmation": "New people bring fresh air into my life",
+        "lucky_number": 32
+      },
+      {
+        "headline": "Today, movement heals better than stillness",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "On Day 5, the body often specifically asks for movement — a walk, a new route, a bit of physical activity. Long stillness feels heavier than usual today.",
+          "Worth stepping outside your usual four walls, even briefly, even if the plan was different."
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "You could take a walk today along an unfamiliar route",
+        "affirmation": "Movement brings my energy back",
+        "lucky_number": 5
+      }
+    ],
+    "6": [
+      {
+        "headline": "Today home asks for attention",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 6 is a day of care — first and foremost for the people close to you and the space around you. Today's energy favors anything that makes home and relationships warmer.",
+          "A good moment to spend time with someone you've been putting off visiting, or just listening to."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "You could call or visit someone you've been thinking about lately",
+        "affirmation": "Caring for the people close to me fills me up too",
+        "lucky_number": 6
+      },
+      {
+        "headline": "A day to take care of yourself too",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "On Day 6 it's easy to pour all your care outward and forget about yourself. Today's energy works better if at least some of that attention comes back to you — without guilt.",
+          "A good backdrop to honestly ask yourself: what do I actually need today?"
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "Maybe do something nice today just for yourself, not only for others",
+        "affirmation": "I deserve the same care I give to others",
+        "lucky_number": 15
+      },
+      {
+        "headline": "Today harmony matters more than perfect",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 6 often triggers the urge to make everything perfect — at home, in relationships, at work. But today's energy responds better to harmony than to perfectionism.",
+          "Sometimes 'good enough' is already a great result for today."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "You could allow yourself today to not push everything to perfect",
+        "affirmation": "Good enough is also good",
+        "lucky_number": 24
+      },
+      {
+        "headline": "A day for an honest conversation as a couple",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "On Day 6, home and relationship topics move to the front. If a conversation's been brewing that keeps getting postponed, today's a good backdrop to bring it up gently rather than in a burst of frustration.",
+          "Today's energy is more likely to support a warm tone than sharpness."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "Maybe gently bring up today the topic you've been putting off",
+        "affirmation": "Honesty born of care brings us closer, not apart",
+        "lucky_number": 33
+      },
+      {
+        "headline": "Today comfort isn't a luxury, it's a need",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 6 responds well to simple everyday pleasures — good food, a clean space, a quiet evening at home. These aren't small things — they're what actually restores you today.",
+          "Worth setting aside a bit of time for exactly that kind of comfort, not just for tasks."
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "You could arrange yourself a calm, unhurried evening today",
+        "affirmation": "The comfort I create is a form of self-care",
+        "lucky_number": 6
+      }
+    ],
+    "7": [
+      {
+        "headline": "Today silence is more useful than answers",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 7 is a day of pause and inner reflection. Today's energy favors quiet over activity — it's worth spending some time alone with yourself.",
+          "If the day feels quieter than usual, that's not a slump — it's the natural rhythm of this particular number."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "You could set aside some time today to just sit in quiet, without your phone or tasks",
+        "affirmation": "In silence I hear myself more clearly",
+        "lucky_number": 7
+      },
+      {
+        "headline": "A day for honest questions to yourself",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "On Day 7 it's easier to notice the gap between what you're doing and what you actually want. Today's energy supports that kind of inner check-in.",
+          "You don't have to change anything right away — it's enough to honestly name what you've noticed."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "Maybe give yourself an honest answer today to a question you've been avoiding",
+        "affirmation": "I'm not afraid to look at myself honestly",
+        "lucky_number": 16
+      },
+      {
+        "headline": "Today, fewer people is better",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 7 often lowers your need for company. If you feel like being alone, that's not withdrawal — it's a natural part of today's energy.",
+          "No need to force yourself to be sociable today if it doesn't feel right."
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "You can calmly cut back on socializing today if that's what you need",
+        "affirmation": "My right to solitude matters as much as my right to connection",
+        "lucky_number": 25
+      },
+      {
+        "headline": "A day for reading between the lines",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "On Day 7, intuition usually beats logic. If something 'doesn't add up' on a gut level, even when the facts look fine — worth paying attention to that signal.",
+          "Today's energy works well with observation and poorly with hasty conclusions."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could trust your intuition a little more than usual today",
+        "affirmation": "I trust my inner voice",
+        "lucky_number": 34
+      },
+      {
+        "headline": "Today knowledge matters more than hustle",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 7 is well suited for studying, reading, or digging into a topic you've long been curious about. Today's energy rewards depth over multitasking.",
+          "Worth choosing one thing today and going deeper into it than usual."
+        ],
+        "focus_area": "creativity & self-expression",
+        "suggested_action": "You could spend time today on a topic you've wanted to understand more deeply",
+        "affirmation": "Depth interests me more than rushing",
+        "lucky_number": 7
+      }
+    ],
+    "8": [
+      {
+        "headline": "Today decisiveness pays off",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 8 is a day of scale and concrete results. Today's energy favors decisive steps on things that require confidence, not doubt.",
+          "If there's a task you've been putting off precisely because of how important it is — today's a good backdrop to finally get to it."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could tackle today the important task you've been postponing because of its scale",
+        "affirmation": "I'm capable of handling big tasks",
+        "lucky_number": 8
+      },
+      {
+        "headline": "A day to acknowledge your contribution",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "On Day 8 it's easier to soberly see how much effort you've already put into something important. Today's energy supports an honest assessment of your results — without excessive modesty.",
+          "Worth acknowledging what you've already accomplished before jumping straight to the next goal."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "Maybe take note today of a result you've already achieved",
+        "affirmation": "I allow myself to be proud of what I've done",
+        "lucky_number": 17
+      },
+      {
+        "headline": "Today balance matters more than the race",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 8 sometimes pushes you toward overworking — too much 'have to.' Today's energy gives you power, but also asks you not to turn it into an endless race.",
+          "Worth checking today's pace: is it confident momentum, or overload?"
+        ],
+        "focus_area": "energy & wellbeing",
+        "suggested_action": "You could consciously leave some time to rest between tasks today",
+        "affirmation": "My strength doesn't require exhaustion",
+        "lucky_number": 26
+      },
+      {
+        "headline": "A day for an honest conversation about status",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "On Day 8, topics of money, status and recognition come through louder than usual. If a conversation about terms, pay, or role has been brewing — today's energy is more likely to support directness.",
+          "It matters to state your position with confidence, but without pressuring the other person."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could state your position today where you used to stay quiet out of awkwardness",
+        "affirmation": "I have the right to speak about my own worth",
+        "lucky_number": 35
+      },
+      {
+        "headline": "Today discipline works in your favor",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 8 responds well to structure: a clear plan for the day usually gets you further than spontaneity. Today's energy loves clear goals.",
+          "Worth writing down 2-3 priorities for today and keeping your focus right there."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could pick your top 2-3 priorities today and not spread yourself thin on the rest",
+        "affirmation": "Focus gives me strength",
+        "lucky_number": 8
+      }
+    ],
+    "9": [
+      {
+        "headline": "Today is good for closing cycles",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 9 is a day of completion, not a new start. Today's energy favors closing what's unfinished: wrapping something up, saying goodbye, letting go.",
+          "If something has run its course, today's a fitting backdrop to honestly admit it."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "You could finish today something that's been stuck halfway for a while",
+        "affirmation": "I know how to let go of what has run its course",
+        "lucky_number": 9
+      },
+      {
+        "headline": "A day to give without expecting anything back",
+        "greeting": "Good day, {{name}}",
+        "body": [
+          "On Day 9 it's more natural to help without expecting anything in return. Today's energy supports generosity — of attention, time, a kind word — with no calculation.",
+          "Worth noticing who today could use your help for no particular reason."
+        ],
+        "focus_area": "relationships",
+        "suggested_action": "You could do something kind for someone today, for no special reason",
+        "affirmation": "My generosity comes back to me in its own way",
+        "lucky_number": 18
+      },
+      {
+        "headline": "Today the view is wider than usual",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 9 usually brings a slightly wider view of things — what felt like a huge problem yesterday looks less significant today.",
+          "Worth using this backdrop to look at a lingering issue from a bit of distance."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "You could look at an old problem today with a bit more distance",
+        "affirmation": "I know how to see the bigger picture",
+        "lucky_number": 27
+      },
+      {
+        "headline": "A day for forgiveness — yourself included",
+        "greeting": "Hello {{name}}",
+        "body": [
+          "On Day 9 it's easier to let go of old grievances, including toward yourself. Today's energy works toward closure, not holding onto the past.",
+          "You don't have to 'forgive and forget' right away — it's enough to let yourself stop carrying it."
+        ],
+        "focus_area": "inner growth",
+        "suggested_action": "Maybe mentally let go today of one old grievance",
+        "affirmation": "I allow myself to let go of the past",
+        "lucky_number": 36
+      },
+      {
+        "headline": "Today, wrapping up matters more than new starts",
+        "greeting": "Hey {{name}}",
+        "body": [
+          "Personal Day 9 isn't the best time to start something from scratch, but it's great for summing up a stage. Today's energy supports reflection.",
+          "Worth looking back at the road so far — not to criticize, but to honestly see how much you've already done."
+        ],
+        "focus_area": "work & goals",
+        "suggested_action": "You could wrap up a small stage today instead of rushing straight into something new",
+        "affirmation": "I know how to appreciate the road I've traveled",
+        "lucky_number": 9
+      }
+    ]
+  }
+}

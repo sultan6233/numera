@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "bank": {
+    "1": [
+      {
+        "headline": "Dziś warto zaczynać, a nie czekać",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dziś masz Dzień Osobisty 1 — to dzień początków, nie zakończeń. Energia sprzyja postawieniu pierwszego kroku w czymś, co od dawna odkładasz.",
+          "Nie musi to być coś wielkiego — wystarczy jedno konkretne działanie. Dzisiejszy klimat sprzyja samodzielnym decyzjom, a nie czekaniu na cudzą aprobatę."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Może dziś jest ten dzień, żeby zrobić ten pierwszy krok, który odkładasz",
+        "affirmation": "Mam prawo zaczynać, nawet jeśli jeszcze nie wszystko jest gotowe",
+        "lucky_number": 1
+      },
+      {
+        "headline": "Dzień, by usłyszeć własne 'chcę'",
+        "greeting": "{{name}}, to twój dzień",
+        "body": [
+          "Dzień Osobisty 1 zwykle wyostrza poczucie 'wiem, czego chcę'. Jeśli dziś pojawia się wyraźne pragnienie zmiany, to nie kaprys, tylko naturalny rytm dnia.",
+          "Energia sprzyja niezależności: dziś łatwiej oprzeć się na własnym zdaniu niż szukać kompromisu. To niezły klimat, by wyznaczyć granicę, na którą wcześniej brakowało odwagi."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Warto dziś przyjrzeć się swojemu pierwszemu impulsowi — może kryje się w nim podpowiedź",
+        "affirmation": "Ufam własnej decyzji",
+        "lucky_number": 10
+      },
+      {
+        "headline": "Dziś przewodzenie przychodzi łatwiej",
+        "greeting": "{{name}}, dzień dobry",
+        "body": [
+          "Dzień z liczbą 1 zwykle daje więcej zdecydowania niż poprzedni. Jeśli jest zadanie, w którym ktoś musi przejąć inicjatywę — dziś dobry moment, by być tą osobą.",
+          "Ważne, by nie mylić zdecydowania z niecierpliwością wobec innych: energia dnia dotyczy twojego własnego ruchu naprzód, a nie naciskania na otoczenie."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś przejąć tę inicjatywę, którą wcześniej zwykle oddawał(a)eś innym",
+        "affirmation": "Potrafię prowadzić, pozostając sobą",
+        "lucky_number": 19
+      },
+      {
+        "headline": "Dobry klimat na szczere 'nie'",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 1 często wyostrza poczucie własnych granic. Jeśli od dawna trzeba było powiedzieć 'nie' — dziś przyjdzie to prawdopodobnie łatwiej niż w inne dni.",
+          "To nie o konflikt, a o jasność: energia dnia wspiera bezpośredniość bez agresji, jeśli formułujesz to spokojnie i na temat."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Możesz spróbować dziś powiedzieć 'nie' tam, gdzie wcześniej milczał(a)eś z grzeczności",
+        "affirmation": "Moja jasność to troska o siebie, nie niegrzeczność",
+        "lucky_number": 28
+      },
+      {
+        "headline": "Dzień na własne tempo",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "Dzisiejszy Dzień Osobisty 1 dotyczy tego, żeby nie dostosowywać się do cudzego rytmu. Jeśli czujesz chęć zrobienia czegoś po swojemu, a nie 'jak wypada' — to część dzisiejszej energii.",
+          "Warto pozwolić sobie dziś bez poczucia winy na niepopularną decyzję, jeśli jest szczera. Dzisiejszy klimat raczej ją wesprze niż osądzi."
+        ],
+        "focus_area": "kreatywność i wyrażanie siebie",
+        "suggested_action": "Może warto dziś wybrać swoje tempo zamiast cudzego harmonogramu",
+        "affirmation": "Mam prawo poruszać się we własnym tempie",
+        "lucky_number": 1
+      }
+    ],
+    "2": [
+      {
+        "headline": "Dziś dialog ważniejszy niż racja",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 2 łagodzi klimat i uwidacznia wartość partnerstwa. Jeśli dojrzewa rozmowa, w której ważniejsze jest wysłuchanie drugiej strony niż udowodnienie swojej racji — dziś dobry moment.",
+          "Energia dnia sprzyja kompromisom, które nie wymagają całkowitego poświęcenia siebie. Czasem wystarczy zapytać zamiast od razu proponować rozwiązanie."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Może warto dziś zadać pytanie zamiast dawać gotową odpowiedź",
+        "affirmation": "Umiem słuchać, pozostając sobą",
+        "lucky_number": 2
+      },
+      {
+        "headline": "Dzień, w którym łagodność jest siłą",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "Klimat dnia 2 często mylony jest ze słabością, a w rzeczywistości to umiejętność dogadywania się tam, gdzie nacisk nie działa. Taka łagodność dziś raczej pomoże niż przeszkodzi.",
+          "Dobry dzień, by zauważyć czyjś punkt widzenia, nie rezygnując ze swojego — po prostu dać mu miejsce obok."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Warto może dziś pozwolić rozmówcy dokończyć wypowiedź, nie przerywając",
+        "affirmation": "Moja łagodność nie znosi mojej siły",
+        "lucky_number": 11
+      },
+      {
+        "headline": "Dobry dzień, by posłuchać ciała",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 2 często odczuwany jest jako cichszy niż zwykle — to normalny rytm, a nie spadek formy. Energia dnia sprzyja słuchaniu siebie bardziej niż udowadnianiu czegoś światu.",
+          "Jeśli ciało prosi o przerwę — dzisiejszy klimat jest po jego stronie. Nie trzeba przekształcać dnia w wyczyn produktywności."
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Możesz dziś pozwolić sobie na przerwę bez poczucia winy",
+        "affirmation": "Pozwalam sobie zwolnić",
+        "lucky_number": 20
+      },
+      {
+        "headline": "Dziś partnerstwo silniejsze niż samotny wysiłek",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "Dzień 2 zwykle podkreśla wartość 'my' zamiast 'ja sam(a)'. Jeśli jest zadanie, które dźwigasz w pojedynkę, warto zastanowić się, kogo można włączyć.",
+          "Nie każda prośba o pomoc to słabość. Energia dzisiejszego dnia raczej wesprze tego, kto potrafi dzielić się obciążeniem."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Może warto dziś poprosić o pomoc tam, gdzie wcześniej radził(a)eś sobie sam(a)",
+        "affirmation": "Prośba o wsparcie to też moja siła",
+        "lucky_number": 29
+      },
+      {
+        "headline": "Dzień na małe, dobre gesty",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 2 dobrze wyczuwa szczegóły — krótką wiadomość, pytanie zadane w porę, uwagę bez powodu. Takie drobiazgi ważą dziś więcej niż głośne gesty.",
+          "Warto przyjrzeć się, kto w twoim otoczeniu mógłby teraz skorzystać właśnie z twojej troski — nie musi być wielka, wystarczy szczera."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Możesz dziś napisać do kogoś, o kim od dawna myślisz, ale nie odważyłeś(aś) się",
+        "affirmation": "Moja uwaga wobec ludzi ma znaczenie",
+        "lucky_number": 2
+      }
+    ],
+    "3": [
+      {
+        "headline": "Dziś dobrze brzmieć po swojemu",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 3 to jeden z najłatwiejszych dni do wyrażania siebie. Jeśli od dawna chciał(a)eś powiedzieć coś ważnego na głos, pokazać pracę albo po prostu być zauważonym(ą) — dziś sprzyjający klimat.",
+          "Energia dnia wspiera lekkość: nie wszystko musi być poważne, czasem wystarczy po prostu cieszyć się procesem."
+        ],
+        "focus_area": "kreatywność i wyrażanie siebie",
+        "suggested_action": "Może warto dziś pokazać komuś to, co zwykle zatrzymujesz dla siebie",
+        "affirmation": "Mam prawo być wysłuchanym(ą)",
+        "lucky_number": 3
+      },
+      {
+        "headline": "Dzień na lekką rozmowę",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "Dzisiejszy klimat dnia 3 zwykle ułatwia komunikację bardziej niż zwykle. Słowa przychodzą szybciej, żarty trafiają celniej — warto z tego skorzystać, zamiast siedzieć w ciszy.",
+          "Dobry dzień, by skontaktować się z kimś, z kim dawno nie rozmawiał(a)eś — rozmowa raczej przebiegnie ciepło niż sztywno."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Możesz dziś napisać albo zadzwonić do kogoś, z kim dawno nie było kontaktu",
+        "affirmation": "Łatwo jest mi być sobą przy ludziach",
+        "lucky_number": 12
+      },
+      {
+        "headline": "Dziś pomysły jaśniejsze niż zwykle",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 3 często przynosi nieoczekiwane pomysły — dotyczące pracy, hobby albo po prostu innego sposobu, żeby coś powiedzieć. Warto je zapisać, nawet jeśli teraz nie czas na realizację.",
+          "Energia dnia nie wymaga natychmiastowego rezultatu — wystarczy pozwolić sobie pofantazjować bez wewnętrznego cenzora."
+        ],
+        "focus_area": "kreatywność i wyrażanie siebie",
+        "suggested_action": "Warto może zapisać dziś pomysł, który przyjdzie ci do głowy, nie oceniając go od razu",
+        "affirmation": "Moje pomysły zasługują na uwagę",
+        "lucky_number": 21
+      },
+      {
+        "headline": "Dzień, by nie bać się być śmiesznym",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "Dzień 3 obniża wewnętrzną powagę i sprawia, że poczucie humoru, także wobec siebie, jest bardziej dostępne. To dobry klimat, by nie traktować potknięć jak tragedii.",
+          "Jeśli dziś coś pójdzie nie po planie — energia dnia podpowiada, żeby podejść do tego lżej niż zwykle."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Możesz dziś pośmiać się z własnej niezręczności zamiast się za nią karcić",
+        "affirmation": "Pozwalam sobie nie być idealnym(ą)",
+        "lucky_number": 30
+      },
+      {
+        "headline": "Dziś kreatywność leczy lepiej niż analiza",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "W Dzień Osobisty 3 głowa zwykle odpoczywa lepiej dzięki kreatywności niż logice — rysowanie, muzyka, gotowanie, dowolne zajęcie rękami. Warto wybrać właśnie taki sposób na regenerację.",
+          "Jeśli nagromadziło się napięcie, dzisiejszy klimat raczej rozładuje je poprzez proces tworzenia czegoś niż analizowanie przyczyn."
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Może warto dziś wybrać zajęcie twórcze zamiast próbować wszystko przemyśleć",
+        "affirmation": "Umiem regenerować się, robiąc to, co kocham",
+        "lucky_number": 3
+      }
+    ],
+    "4": [
+      {
+        "headline": "Dziś porządek ważniejszy niż tempo",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 4 to dzień fundamentów, a nie zrywu. Dzisiejsza energia wspiera metodyczne, choćby niewielkie kroki, które później zaowocują stabilnością.",
+          "Dobry moment, by zaprowadzić porządek tam, gdzie od dawna narastał chaos — w sprawach, dokumentach albo po prostu w grafiku."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś rozprawić się z czymś, co od dawna odkładasz 'na później'",
+        "affirmation": "Moja konsekwencja to też ruch naprzód",
+        "lucky_number": 4
+      },
+      {
+        "headline": "Dzień na szczery plan",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "Dzisiejszy klimat dnia 4 dobrze nadaje się do trzeźwej oceny: co naprawdę zdążysz zrobić, a co czas puścić. Nie wszystko, co zaplanowane, musi się wydarzyć właśnie teraz.",
+          "Energia dnia raczej nagrodzi szczery plan niż piękne, ale nierealistyczne obietnice wobec siebie."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Warto może dziś przejrzeć listę zadań i zostawić tylko to, co naprawdę ważne",
+        "affirmation": "Mój szczery plan jest silniejszy niż idealny, ale niewykonalny",
+        "lucky_number": 13
+      },
+      {
+        "headline": "Dziś ciało prosi o rutynę",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 4 często odzywa się w ciele prośbą o stabilność — regularny sen, jedzenie, przerwy. Chaotyczny rytm dziś odczuwany jest ciężej niż zwykle.",
+          "Odrobina rutyny to dziś nie nuda, tylko forma troski o siebie."
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Możesz dziś położyć się spać trochę wcześniej niż zwykle",
+        "affirmation": "Dbanie o mój rytm to też troska o siebie",
+        "lucky_number": 22
+      },
+      {
+        "headline": "Dzień na niezawodność w relacjach",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "W dniu 4 szczególnie cenna jest nie głośność uczuć, a stałość — przyjść na czas, dotrzymać obietnicy, być blisko bez dramatu. Takie rzeczy dziś znaczą więcej, niż się wydaje.",
+          "Jeśli komuś zależy na twojej stabilności — dziś dobry dzień, by pokazać to czynem, a nie słowami."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Możesz dziś dotrzymać drobnej obietnicy, którą łatwo byłoby odłożyć",
+        "affirmation": "Moja stałość to forma miłości",
+        "lucky_number": 31
+      },
+      {
+        "headline": "Dziś powoli nie znaczy źle",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 4 to nie o zrywach, tylko o stabilnym tempie. Jeśli dziś wszystko idzie wolniej, niż byś chciał(a), to nie powód do niepokoju, tylko cecha właśnie tego dnia.",
+          "Energia dnia nagradza cierpliwość bardziej niż pośpiech."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Warto może dziś zwolnić tempo i nie wymagać od siebie rekordów",
+        "affirmation": "Moje dzisiejsze tempo też jest właściwe",
+        "lucky_number": 4
+      }
+    ],
+    "5": [
+      {
+        "headline": "Dziś zmiany na lepsze",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 5 to jeden z najbardziej ruchliwych dni. Energia sprzyja nowym doświadczeniom, zmianie otoczenia, spontanicznym decyzjom, które innego dnia wydałyby się ryzykowne.",
+          "Jeśli pojawia się chęć zmiany czegoś — trasy, nawyku, planu na wieczór — dzisiejszy klimat raczej to wesprze, niż ukarze za niestałość."
+        ],
+        "focus_area": "kreatywność i wyrażanie siebie",
+        "suggested_action": "Możesz dziś spróbować czegoś, czego wcześniej nie robił(a)eś",
+        "affirmation": "Jestem otwarty(a) na nowe doświadczenia",
+        "lucky_number": 5
+      },
+      {
+        "headline": "Dzień, kiedy plan może się zmienić",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "Dzisiejszy klimat dnia 5 nie lubi sztywnych ram. Jeśli grafik nagle się zmienia, to nie katastrofa, tylko część energii dnia proszącej o elastyczność.",
+          "Warto pozwolić sobie na odrobinę improwizacji tam, gdzie zwykle wszystko rozpisane jest co do minuty."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Może warto dziś odstąpić od zwykłego planu choćby w jednym drobiazgu",
+        "affirmation": "Elastyczność to też moja siła",
+        "lucky_number": 14
+      },
+      {
+        "headline": "Dziś nuda to sygnał, żeby coś zmienić",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "W Dzień Osobisty 5 monotonia odczuwana jest ostrzej niż zwykle. Jeśli coś od dawna znudziło się, to nie powód, by się karcić, tylko podpowiedź energii dnia, żeby spróbować nowego kąta.",
+          "Nie trzeba zmieniać wszystkiego naraz — wystarczy jeden świeży szczegół w zwykłym dniu."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś wprowadzić coś małego i nowego do swojej zwykłej rutyny",
+        "affirmation": "Mam prawo chcieć zmian",
+        "lucky_number": 23
+      },
+      {
+        "headline": "Dzień na lekkość w komunikacji",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "Dzień Osobisty 5 zwykle ożywia komunikację — łatwiej poznawać ludzi, łatwiej podtrzymać rozmowę z kimś mało znanym. Energia dnia sprzyja nowym znajomościom.",
+          "Warto nie zamykać się w zwykłym kręgu i dać szansę przypadkowej rozmowie."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Możesz dziś zagadać do kogoś, na kogo wcześniej nie odważyłeś(aś) się",
+        "affirmation": "Nowi ludzie wnoszą świeże powietrze do mojego życia",
+        "lucky_number": 32
+      },
+      {
+        "headline": "Dziś ruch leczy lepiej niż spokój",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "W dniu 5 ciało często prosi właśnie o ruch — spacer, zmianę trasy, trochę aktywności fizycznej. Długi bezruch dziś odczuwany jest ciężej niż zwykle.",
+          "Warto wyjść ze zwykłych czterech ścian choć na chwilę, nawet jeśli plan był inny."
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Możesz dziś przejść się nieznaną trasą",
+        "affirmation": "Ruch przywraca mi energię",
+        "lucky_number": 5
+      }
+    ],
+    "6": [
+      {
+        "headline": "Dziś dom prosi o uwagę",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 6 to dzień troski, przede wszystkim o bliskich i przestrzeń wokół. Dzisiejsza energia sprzyja wszystkiemu, co czyni dom i relacje cieplejszymi.",
+          "Dobry moment, by poświęcić czas komuś, kogo od dawna odkładasz odwiedzić albo po prostu wysłuchać."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Możesz dziś zadzwonić albo odwiedzić kogoś, o kim od dawna myślisz",
+        "affirmation": "Troska o bliskich wypełnia też mnie samego(samą)",
+        "lucky_number": 6
+      },
+      {
+        "headline": "Dzień, by zadbać też o siebie",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "W dniu 6 łatwo skierować całą troskę na zewnątrz i zapomnieć o sobie. Energia dnia działa lepiej, jeśli choć część tej uwagi wróci do ciebie — bez poczucia winy.",
+          "Dobry klimat, by szczerze zapytać siebie: czego dziś naprawdę potrzebuję?"
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Warto może dziś zrobić coś miłego tylko dla siebie, nie tylko dla innych",
+        "affirmation": "Też zasługuję na troskę, którą daję innym",
+        "lucky_number": 15
+      },
+      {
+        "headline": "Dziś harmonia ważniejsza niż ideał",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 6 często wywołuje chęć zrobienia wszystkiego idealnie — w domu, w relacjach, w sprawach. Ale energia dnia chętniej odpowiada na harmonię niż na perfekcjonizm.",
+          "Czasem 'wystarczająco dobrze' to już świetny wynik na dziś."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Możesz dziś pozwolić sobie nie doprowadzać wszystkiego do ideału",
+        "affirmation": "Wystarczająco dobrze to też dobrze",
+        "lucky_number": 24
+      },
+      {
+        "headline": "Dzień na szczerą rozmowę w parze",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "W dniu 6 tematy domu i relacji wysuwają się na pierwszy plan. Jeśli dojrzewa rozmowa, która wciąż jest odkładana — dziś odpowiedni klimat, by poruszyć ją łagodnie, a nie w porywie.",
+          "Energia dnia raczej wesprze ciepły ton niż ostrość."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Może warto dziś delikatnie poruszyć temat, który od dawna odkładasz",
+        "affirmation": "Szczerość płynąca z troski zbliża, a nie oddala",
+        "lucky_number": 33
+      },
+      {
+        "headline": "Dziś wygoda to nie luksus, tylko potrzeba",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 6 dobrze odpowiada na proste codzienne przyjemności — smaczne jedzenie, czystą przestrzeń, spokojny wieczór w domu. To nie drobiazgi, tylko to, co dziś naprawdę regeneruje.",
+          "Warto wygospodarować trochę czasu właśnie na taką wygodę, a nie tylko na sprawy."
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Możesz dziś urządzić sobie spokojny wieczór bez pośpiechu",
+        "affirmation": "Wygoda, którą tworzę, to troska o siebie",
+        "lucky_number": 6
+      }
+    ],
+    "7": [
+      {
+        "headline": "Dziś cisza pomaga bardziej niż odpowiedzi",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 7 to dzień przerwy i wewnętrznej analizy. Dzisiejsza energia sprzyja ciszy bardziej niż aktywności: warto zostać trochę sam(a) ze sobą.",
+          "Jeśli dzień wydaje się cichszy niż zwykle — to nie spadek, tylko naturalny rytm właśnie tej liczby."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Możesz dziś wygospodarować trochę czasu na ciszę, bez telefonu i zadań",
+        "affirmation": "W ciszy słyszę siebie wyraźniej",
+        "lucky_number": 7
+      },
+      {
+        "headline": "Dzień na szczere pytania do siebie",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "W dniu 7 łatwiej zauważyć rozbieżności między tym, co robisz, a tym, czego naprawdę chcesz. Energia dnia wspiera taką wewnętrzną kontrolę.",
+          "Nie trzeba od razu nic zmieniać — wystarczy szczerze nazwać to, co zauważyłeś(aś)."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Warto może dziś szczerze odpowiedzieć sobie na pytanie, którego od dawna unikasz",
+        "affirmation": "Nie boję się patrzeć na siebie szczerze",
+        "lucky_number": 16
+      },
+      {
+        "headline": "Dziś mniej ludzi to lepiej",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 7 często obniża potrzebę towarzystwa. Jeśli masz ochotę pobyć sam(a) — to nie dystans, tylko naturalna część energii dnia.",
+          "Warto nie zmuszać się dziś do towarzyskości na siłę."
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Możesz dziś spokojnie ograniczyć ilość kontaktów, jeśli czujesz taką potrzebę",
+        "affirmation": "Moje prawo do samotności jest tak samo ważne jak prawo do towarzystwa",
+        "lucky_number": 25
+      },
+      {
+        "headline": "Dzień na czytanie między wierszami",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "W dniu 7 intuicja zwykle jest ostrzejsza niż logika. Jeśli coś 'nie gra' na poziomie odczuć, nawet gdy fakty wyglądają normalnie, warto posłuchać tego sygnału.",
+          "Energia dnia dobrze współpracuje z obserwacją, a źle z pochopnymi wnioskami."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś zaufać intuicji trochę bardziej niż zwykle",
+        "affirmation": "Ufam swojemu wewnętrznemu głosowi",
+        "lucky_number": 34
+      },
+      {
+        "headline": "Dziś wiedza ważniejsza niż zabieganie",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 7 dobrze nadaje się do nauki, czytania, zgłębiania tematu, który od dawna interesował. Energia dnia nagradza dociekliwość bardziej niż wielozadaniowość.",
+          "Warto wybrać dziś jedną rzecz i zanurzyć się w nią głębiej niż zwykle."
+        ],
+        "focus_area": "kreatywność i wyrażanie siebie",
+        "suggested_action": "Możesz dziś poświęcić czas tematowi, który od dawna chciał(a)eś lepiej zrozumieć",
+        "affirmation": "Głębia interesuje mnie bardziej niż pośpiech",
+        "lucky_number": 7
+      }
+    ],
+    "8": [
+      {
+        "headline": "Dziś zdecydowanie daje efekt",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 8 to dzień skali i konkretnych rezultatów. Dzisiejsza energia sprzyja zdecydowanym krokom w sprawach wymagających pewności, a nie wątpliwości.",
+          "Jeśli jest zadanie, które odkładałeś(aś) właśnie z powodu jego wagi — dziś sprzyjający klimat, by wreszcie się za nie zabrać."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś zająć się tym ważnym zadaniem, które odkładałeś(aś) z powodu jego skali",
+        "affirmation": "Potrafię radzić sobie z dużymi zadaniami",
+        "lucky_number": 8
+      },
+      {
+        "headline": "Dzień, by docenić swój wkład",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "W dniu 8 łatwiej trzeźwo zobaczyć, ile wysiłku już włożyłeś(aś) w ważną sprawę. Energia dnia wspiera szczerą ocenę swoich rezultatów — bez nadmiernej skromności.",
+          "Warto uznać przed sobą to, co już się udało, zamiast od razu przechodzić do kolejnego celu."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Warto może dziś odnotować dla siebie już osiągnięty rezultat",
+        "affirmation": "Pozwalam sobie być dumnym(ą) z tego, co zrobiłem(am)",
+        "lucky_number": 17
+      },
+      {
+        "headline": "Dziś równowaga ważniejsza niż wyścig",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 8 czasem popycha do przepracowania — zbyt wiele 'muszę'. Energia dnia daje siłę, ale też prosi, żeby nie zmieniać jej w nieskończony wyścig.",
+          "Warto zweryfikować dzisiejsze tempo: to pewne posuwanie się naprzód czy przeciążenie?"
+        ],
+        "focus_area": "energia i samopoczucie",
+        "suggested_action": "Możesz dziś świadomie zostawić trochę czasu na odpoczynek między zadaniami",
+        "affirmation": "Moja siła nie wymaga wyczerpania",
+        "lucky_number": 26
+      },
+      {
+        "headline": "Dzień na szczerą rozmowę o statusie",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "W dniu 8 tematy pieniędzy, statusu i uznania brzmią głośniej niż zwykle. Jeśli dojrzała rozmowa o warunkach, wynagrodzeniu czy roli — energia dnia raczej wesprze bezpośredniość.",
+          "Ważne, by formułować swoje stanowisko pewnie, ale bez wywierania presji na rozmówcy."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś zaznaczyć swoje stanowisko tam, gdzie wcześniej milczałeś(aś) z niezręczności",
+        "affirmation": "Mam prawo mówić o swojej wartości",
+        "lucky_number": 35
+      },
+      {
+        "headline": "Dziś dyscyplina działa na twoją korzyść",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 8 dobrze odpowiada na strukturę: jasny plan na dzień zwykle daje więcej rezultatów niż spontaniczność. Energia dnia kocha jasne cele.",
+          "Warto wypisać 2-3 priorytety na dziś i trzymać skupienie właśnie na nich."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś wybrać 2-3 główne priorytety i nie rozpraszać się na resztę",
+        "affirmation": "Skupienie daje mi siłę",
+        "lucky_number": 8
+      }
+    ],
+    "9": [
+      {
+        "headline": "Dziś dobrze zamykać cykle",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 9 to dzień zamknięcia, a nie startu czegoś nowego. Dzisiejsza energia sprzyja domykaniu tego, co niedokończone: dokończyć, pożegnać się, puścić.",
+          "Jeśli coś od dawna się wyczerpało — dziś odpowiedni klimat, by szczerze to przyznać."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Możesz dziś doprowadzić do końca coś, co od dawna wisi w połowie drogi",
+        "affirmation": "Potrafię puszczać to, co się wyczerpało",
+        "lucky_number": 9
+      },
+      {
+        "headline": "Dzień, by dawać bez oczekiwania",
+        "greeting": "Dzień dobry {{name}}",
+        "body": [
+          "W dniu 9 naturalniej jest pomagać, nie oczekując niczego w zamian. Energia dnia wspiera hojność — uwagą, czasem, dobrym słowem, bez wyrachowania.",
+          "Warto zauważyć, komu dziś można pomóc bez szczególnego powodu."
+        ],
+        "focus_area": "relacje",
+        "suggested_action": "Możesz dziś zrobić coś dobrego dla kogoś bez szczególnego powodu",
+        "affirmation": "Moja hojność wraca do mnie po swojemu",
+        "lucky_number": 18
+      },
+      {
+        "headline": "Dziś spojrzenie szersze niż zwykle",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 9 zwykle przynosi nieco szersze spojrzenie na sprawy — to, co wczoraj wydawało się ogromnym problemem, dziś wygląda już nie tak poważnie.",
+          "Warto skorzystać z tego klimatu, by spojrzeć z dystansu na przeciągającą się sprawę."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Możesz dziś spojrzeć na stary problem z nieco większego dystansu",
+        "affirmation": "Potrafię dostrzegać szerszy obraz",
+        "lucky_number": 27
+      },
+      {
+        "headline": "Dzień na przebaczenie — sobie też",
+        "greeting": "Witaj {{name}}",
+        "body": [
+          "W dniu 9 łatwiej puszczać stare urazy, także te wobec siebie. Energia dnia działa na rzecz zamknięcia, a nie trzymania się przeszłości.",
+          "Nie trzeba od razu 'wybaczyć i zapomnieć' — wystarczy pozwolić sobie przestać to nosić."
+        ],
+        "focus_area": "rozwój wewnętrzny",
+        "suggested_action": "Warto może dziś w myślach puścić jedną starą urazę",
+        "affirmation": "Pozwalam sobie puścić przeszłość",
+        "lucky_number": 36
+      },
+      {
+        "headline": "Dziś podsumowania ważniejsze niż nowe starty",
+        "greeting": "Cześć {{name}}",
+        "body": [
+          "Dzień Osobisty 9 to nie najlepszy czas, by zaczynać coś od zera, za to świetnie nadaje się do podsumowania etapu. Energia dnia wspiera refleksję.",
+          "Warto obejrzeć się na przebytą drogę — nie po to, by krytykować, ale żeby szczerze zobaczyć, ile już zrobiono."
+        ],
+        "focus_area": "praca i cele",
+        "suggested_action": "Możesz dziś podsumować niewielki etap zamiast od razu rzucać się w nowe",
+        "affirmation": "Potrafię doceniać przebytą drogę",
+        "lucky_number": 9
+      }
+    ]
+  }
+}

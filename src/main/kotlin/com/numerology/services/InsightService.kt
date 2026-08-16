@@ -53,7 +53,7 @@ class InsightService(
             ?: error("User ${user.id} has no birth date on file yet — cannot compute Personal Day Number")
 
         val personalDayNumber = PersonalDayCalculator.calculate(birthDate, date)
-        val focusArea = FocusArea.forDate(date).label
+        val focusArea = FocusArea.forDate(date).labelFor(user.language)
         val computedNumbers = computedNumbersRepository.findByUserId(user.id)
         val recentTitles = dailyInsightRepository.recentTitles(user.id, date, limit = 5)
             .map { "${it.date} — ${it.headline} (${it.focusArea})" }
@@ -101,7 +101,7 @@ class InsightService(
         if (llmResult != null) return llmResult to "llm"
 
         logger.info("Falling back to static bank for user ${user.id}, personal day $personalDayNumber")
-        val fallback = fallbackBank.pick(personalDayNumber, user.id, date, user.name)
+        val fallback = fallbackBank.pick(personalDayNumber, user.id, date, user.name, user.language)
         return fallback to "fallback"
     }
 

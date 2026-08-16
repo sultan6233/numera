@@ -3,6 +3,7 @@ package com.numerology.llm
 import com.numerology.config.AppConfig
 import com.numerology.models.LlmInsightPayload
 import com.numerology.models.SupportedLanguages
+import com.numerology.numerology.FocusArea
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.cio.CIO
@@ -106,8 +107,7 @@ private fun buildUserPrompt(ctx: InsightGenerationContext): String {
 - Дата: ${ctx.todayDate}
 - Личный День (Personal Day Number): ${ctx.personalDayNumber}
 - Фокус-тема на сегодня: ${ctx.focusTheme}
-  (одно из: отношения | энергия и самочувствие | работа и цели |
-   творчество и самовыражение | внутренний рост)
+  (одно из, на языке ответа: ${FocusArea.allLabelsFor(ctx.language).joinToString(" | ")})
 
 Заголовки/темы последних 5 дней (НЕ повторять ракурс и формулировки):
 $recentBlock

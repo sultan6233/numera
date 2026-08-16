@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "bank": {
+    "1": [
+      {
+        "headline": "Heute ist ein Tag zum Anfangen, nicht zum Warten",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Heute ist dein Persönlicher Tag 1 — ein Tag für Neuanfänge, nicht für Abschlüsse. Die Energie begünstigt den ersten Schritt bei etwas, das du schon lange aufschiebst.",
+          "Es muss nichts Großes sein — eine konkrete Handlung reicht. Die heutige Stimmung unterstützt eigene Entscheidungen, statt auf die Zustimmung anderer zu warten."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Vielleicht ist heute der Tag, genau den ersten Schritt zu tun, den du aufgeschoben hast",
+        "affirmation": "Ich habe das Recht anzufangen, auch wenn noch nicht alles bereit ist",
+        "lucky_number": 1
+      },
+      {
+        "headline": "Ein Tag, um dein eigenes 'Ich will' zu hören",
+        "greeting": "{{name}}, heute ist dein Tag",
+        "body": [
+          "Der Persönliche Tag 1 schärft meist das Gefühl 'ich weiß, was ich will'. Wenn heute ein klarer Wunsch nach Veränderung auftaucht, ist das keine Laune, sondern Teil des natürlichen Rhythmus des Tages.",
+          "Die Energie begünstigt Eigenständigkeit: Heute ist es leichter, sich auf die eigene Meinung zu verlassen, als nach einem Kompromiss zu suchen. Ein guter Hintergrund, um eine Grenze zu ziehen, für die dir bisher der Mut fehlte."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Es lohnt sich, heute auf deinen ersten Impuls zu achten — vielleicht steckt ein Hinweis darin",
+        "affirmation": "Ich vertraue meiner eigenen Entscheidung",
+        "lucky_number": 10
+      },
+      {
+        "headline": "Heute fällt Führen leichter als sonst",
+        "greeting": "{{name}}, guten Tag",
+        "body": [
+          "Ein Tag mit der Zahl 1 bringt meist mehr Entschlossenheit als der Vortag. Wenn es eine Aufgabe gibt, bei der jemand die Initiative ergreifen muss — heute ist ein guter Moment, diese Person zu sein.",
+          "Wichtig ist, Entschlossenheit nicht mit Ungeduld gegenüber anderen zu verwechseln: Die Energie des Tages dreht sich um deine eigene Bewegung nach vorn, nicht darum, andere zu drängen."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest heute die Initiative übernehmen, die du früher gerne anderen überlassen hast",
+        "affirmation": "Ich kann führen und dabei ich selbst bleiben",
+        "lucky_number": 19
+      },
+      {
+        "headline": "Ein guter Hintergrund für ein ehrliches 'Nein'",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 1 schärft oft das Gefühl für die eigenen Grenzen. Wenn du schon lange 'Nein' sagen musst — heute fällt es dir vermutlich leichter als an anderen Tagen.",
+          "Es geht nicht um Konflikt, sondern um Klarheit: Die Energie des Tages unterstützt Direktheit ohne Aggression, wenn du ruhig und sachlich formulierst."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Du könntest heute versuchen, dort 'Nein' zu sagen, wo du früher aus Höflichkeit geschwiegen hast",
+        "affirmation": "Meine Klarheit ist Fürsorge für mich selbst, keine Unhöflichkeit",
+        "lucky_number": 28
+      },
+      {
+        "headline": "Ein Tag für dein eigenes Tempo",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der heutige Persönliche Tag 1 handelt davon, sich nicht dem Rhythmus anderer anzupassen. Wenn du das Gefühl hast, etwas auf deine eigene Art tun zu wollen statt 'wie üblich' — das ist Teil der heutigen Energie.",
+          "Du darfst dir heute ohne Schuldgefühl eine unpopuläre Entscheidung erlauben, wenn sie ehrlich ist. Der heutige Hintergrund unterstützt das eher, als es zu verurteilen."
+        ],
+        "focus_area": "Kreativität & Selbstausdruck",
+        "suggested_action": "Vielleicht lohnt es sich heute, dein eigenes Tempo statt fremder Termine zu wählen",
+        "affirmation": "Ich habe das Recht, mich in meinem eigenen Tempo zu bewegen",
+        "lucky_number": 1
+      }
+    ],
+    "2": [
+      {
+        "headline": "Heute zählt der Dialog mehr als recht zu haben",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 2 mildert die Stimmung und macht den Wert von Partnerschaft sichtbarer. Wenn ein Gespräch ansteht, bei dem es wichtiger ist, den anderen zu hören, als recht zu behalten — heute ist ein guter Moment dafür.",
+          "Die Energie des Tages begünstigt Kompromisse, die nicht verlangen, sich vollständig aufzugeben. Manchmal reicht es, eine Frage zu stellen, statt gleich eine Lösung anzubieten."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Vielleicht lohnt es sich heute, eine Frage zu stellen statt einer fertigen Antwort",
+        "affirmation": "Ich kann zuhören und trotzdem ich selbst bleiben",
+        "lucky_number": 2
+      },
+      {
+        "headline": "Ein Tag, an dem Sanftmut Stärke ist",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "Die heutige Stimmung von Tag 2 wird oft mit Schwäche verwechselt, ist aber in Wahrheit die Fähigkeit, sich zu verständigen, wo Druck nicht funktioniert. Diese Sanftmut hilft heute eher, als dass sie stört.",
+          "Ein guter Tag, um die Sichtweise des anderen wahrzunehmen, ohne die eigene aufzugeben — ihr einfach Platz daneben zu geben."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Vielleicht lohnt es sich, dein Gegenüber ausreden zu lassen, ohne zu unterbrechen",
+        "affirmation": "Meine Sanftmut hebt meine Stärke nicht auf",
+        "lucky_number": 11
+      },
+      {
+        "headline": "Ein guter Tag, um auf den Körper zu hören",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 2 fühlt sich oft ruhiger an als sonst — das ist ein normaler Rhythmus, kein Einbruch. Die Energie des Tages begünstigt es, mehr auf sich selbst zu hören, als der Welt etwas zu beweisen.",
+          "Wenn der Körper eine Pause verlangt, steht die heutige Stimmung auf seiner Seite. Der Tag muss nicht zu einer Produktivitätsleistung werden."
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Du kannst dir heute ohne Schuldgefühl eine Pause erlauben",
+        "affirmation": "Ich erlaube mir, langsamer zu machen",
+        "lucky_number": 20
+      },
+      {
+        "headline": "Heute ist Partnerschaft stärker als Alleingang",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Tag 2 hebt meist den Nutzen des 'Wir' gegenüber dem 'Ich allein' hervor. Wenn es eine Aufgabe gibt, die du allein trägst, lohnt es sich zu überlegen, wen du hinzuziehen könntest.",
+          "Nicht jede Bitte um Hilfe ist Schwäche. Die heutige Energie unterstützt eher denjenigen, der weiß, wie man Last teilt."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Vielleicht lohnt es sich heute, um Hilfe zu bitten, wo du früher allein zurechtgekommen bist",
+        "affirmation": "Um Unterstützung zu bitten ist auch meine Stärke",
+        "lucky_number": 29
+      },
+      {
+        "headline": "Ein Tag für kleine liebevolle Gesten",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 2 spürt Details gut — eine kurze Nachricht, eine rechtzeitig gestellte Frage, Aufmerksamkeit ohne besonderen Anlass. Solche Kleinigkeiten wirken heute stärker als große Gesten.",
+          "Es lohnt sich zu überlegen, wer in deinem Umfeld gerade genau deine Fürsorge gebrauchen könnte — sie muss nicht groß sein, nur aufrichtig."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Du könntest heute jemandem schreiben, an den du schon lange denkst, dich aber nicht getraut hast",
+        "affirmation": "Meine Aufmerksamkeit für Menschen zählt",
+        "lucky_number": 2
+      }
+    ],
+    "3": [
+      {
+        "headline": "Heute ist es gut, wie du selbst zu klingen",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 3 ist einer der leichtesten Tage für Selbstausdruck. Wenn du schon lange etwas Wichtiges laut sagen, eine Arbeit zeigen oder einfach auffallen wolltest — heute ist ein guter Hintergrund dafür.",
+          "Die Energie des Tages unterstützt Leichtigkeit: Nicht alles muss ernst sein, manchmal reicht es, einfach den Prozess zu genießen."
+        ],
+        "focus_area": "Kreativität & Selbstausdruck",
+        "suggested_action": "Vielleicht lohnt es sich heute, jemandem etwas zu zeigen, das du normalerweise für dich behältst",
+        "affirmation": "Ich habe das Recht, gehört zu werden",
+        "lucky_number": 3
+      },
+      {
+        "headline": "Ein Tag für leichte Gespräche",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "Die heutige Stimmung von Tag 3 erleichtert meist die Kommunikation. Worte finden sich schneller, Witze treffen besser — das lohnt sich zu nutzen, statt in Stille zu verharren.",
+          "Ein guter Tag, um jemanden zu kontaktieren, mit dem du lange nicht gesprochen hast — das Gespräch wird eher warm als angespannt verlaufen."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Du könntest heute jemandem schreiben oder anrufen, mit dem du lange keinen Kontakt hattest",
+        "affirmation": "Es fällt mir leicht, ich selbst zu sein, wenn ich mit Menschen zusammen bin",
+        "lucky_number": 12
+      },
+      {
+        "headline": "Heute sind die Ideen heller als sonst",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 3 bringt oft unerwartete Ideen — zur Arbeit, zu einem Hobby oder einfach zu einer neuen Art, etwas auszudrücken. Es lohnt sich, sie aufzuschreiben, auch wenn jetzt nicht die Zeit zur Umsetzung ist.",
+          "Die Energie des Tages verlangt kein sofortiges Ergebnis — es reicht, sich zu erlauben, ohne inneren Zensor zu fantasieren."
+        ],
+        "focus_area": "Kreativität & Selbstausdruck",
+        "suggested_action": "Es lohnt sich vielleicht, heute die Idee aufzuschreiben, die dir in den Sinn kommt, ohne sie sofort zu bewerten",
+        "affirmation": "Meine Ideen verdienen Aufmerksamkeit",
+        "lucky_number": 21
+      },
+      {
+        "headline": "Ein Tag, um keine Angst vor Komik zu haben",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Tag 3 verringert den inneren Ernst und macht Humor, auch sich selbst gegenüber, zugänglicher. Ein guter Hintergrund, um Fehltritte nicht als Tragödie zu erleben.",
+          "Wenn heute etwas nicht nach Plan läuft — die Energie des Tages rät dazu, es leichter zu nehmen als sonst."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Du könntest heute über deine eigene Ungeschicklichkeit lachen, statt dich zu tadeln",
+        "affirmation": "Ich erlaube mir, nicht perfekt zu sein",
+        "lucky_number": 30
+      },
+      {
+        "headline": "Heute heilt Kreativität besser als Analyse",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Am Persönlichen Tag 3 erholt sich der Kopf meist besser durch Kreativität als durch Logik — Zeichnen, Musik, Kochen, jede handwerkliche Tätigkeit. Es lohnt sich, genau diesen Weg zur Erholung zu wählen.",
+          "Wenn sich Anspannung aufgebaut hat, löst die heutige Stimmung sie eher durch den Prozess des Erschaffens als durch die Analyse der Ursachen."
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Vielleicht lohnt es sich heute, eine kreative Beschäftigung zu wählen, statt alles durchdenken zu wollen",
+        "affirmation": "Ich weiß, wie ich mich mit dem erhole, was ich liebe",
+        "lucky_number": 3
+      }
+    ],
+    "4": [
+      {
+        "headline": "Heute zählt Ordnung mehr als Geschwindigkeit",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 4 ist ein Tag des Fundaments, kein Tag des Aufbruchs. Die heutige Energie unterstützt methodische, wenn auch kleine Schritte, die sich später in Stabilität auszahlen.",
+          "Ein guter Moment, um Ordnung dort zu schaffen, wo sich lange Chaos angesammelt hat — bei Angelegenheiten, Dokumenten oder einfach im Zeitplan."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest heute etwas erledigen, das du schon lange 'auf später' verschoben hast",
+        "affirmation": "Meine Beständigkeit ist auch ein Schritt nach vorn",
+        "lucky_number": 4
+      },
+      {
+        "headline": "Ein Tag für einen ehrlichen Plan",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "Die heutige Stimmung von Tag 4 eignet sich gut für eine nüchterne Einschätzung: was du wirklich schaffst und was es Zeit ist, loszulassen. Nicht alles Geplante muss genau jetzt geschehen.",
+          "Die Energie des Tages belohnt eher einen ehrlichen Plan als schöne, aber unrealistische Versprechen an dich selbst."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Vielleicht lohnt es sich, heute deine To-do-Liste durchzugehen und nur das wirklich Wichtige zu behalten",
+        "affirmation": "Mein ehrlicher Plan ist stärker als ein perfekter, aber unmöglicher",
+        "lucky_number": 13
+      },
+      {
+        "headline": "Heute verlangt der Körper nach Routine",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 4 äußert sich im Körper oft als Bitte um Stabilität — regelmäßigen Schlaf, Essen, Pausen. Ein chaotischer Rhythmus fühlt sich heute schwerer an als sonst.",
+          "Ein wenig Routine ist heute keine Langeweile, sondern eine Form der Fürsorge für dich selbst."
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Du könntest heute etwas früher schlafen gehen als sonst",
+        "affirmation": "Für meine Routine zu sorgen ist auch, für mich selbst zu sorgen",
+        "lucky_number": 22
+      },
+      {
+        "headline": "Ein Tag für Verlässlichkeit in Beziehungen",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "An Tag 4 zählt nicht die Lautstärke der Gefühle, sondern die Beständigkeit — pünktlich sein, ein Versprechen halten, ohne Drama präsent sein. Solche Dinge bedeuten heute mehr, als es scheint.",
+          "Wenn jemandem deine Stabilität wichtig ist, ist heute ein guter Tag, das durch Taten zu zeigen, nicht durch Worte."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Du könntest heute ein kleines Versprechen halten, das leicht zu verschieben gewesen wäre",
+        "affirmation": "Meine Beständigkeit ist eine Form der Liebe",
+        "lucky_number": 31
+      },
+      {
+        "headline": "Heute bedeutet langsam nicht schlecht",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 4 geht nicht um Aufbrüche, sondern um ein stabiles Tempo. Wenn sich heute alles langsamer bewegt, als du möchtest — das ist kein Grund zur Sorge, sondern eine Eigenheit genau dieses Tages.",
+          "Die Energie des Tages belohnt Geduld mehr als Eile."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Vielleicht lohnt es sich, heute das Tempo zu drosseln und keine Rekorde von dir zu verlangen",
+        "affirmation": "Mein heutiges Tempo ist auch das richtige",
+        "lucky_number": 4
+      }
+    ],
+    "5": [
+      {
+        "headline": "Heute sind Veränderungen zum Guten",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 5 ist einer der lebhaftesten Tage. Die Energie begünstigt neue Erfahrungen, einen Ortswechsel, spontane Entscheidungen, die an einem anderen Tag riskant erscheinen würden.",
+          "Wenn der Wunsch aufkommt, etwas zu ändern — eine Route, eine Gewohnheit, den Abendplan — unterstützt die heutige Stimmung das eher, als dich für Unbeständigkeit zu bestrafen."
+        ],
+        "focus_area": "Kreativität & Selbstausdruck",
+        "suggested_action": "Du könntest heute etwas ausprobieren, das du noch nie gemacht hast",
+        "affirmation": "Ich bin offen für neue Erfahrungen",
+        "lucky_number": 5
+      },
+      {
+        "headline": "Ein Tag, an dem der Plan sich ändern darf",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "Die heutige Stimmung von Tag 5 mag keine starren Rahmen. Wenn sich der Zeitplan plötzlich ändert, ist das keine Katastrophe, sondern Teil der Energie des Tages, die um Flexibilität bittet.",
+          "Es lohnt sich, dir etwas Improvisation zu erlauben, wo normalerweise alles minutiös geplant ist."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Vielleicht lohnt es sich, heute wenigstens in einer Kleinigkeit vom gewohnten Plan abzuweichen",
+        "affirmation": "Flexibilität ist auch meine Stärke",
+        "lucky_number": 14
+      },
+      {
+        "headline": "Heute ist Langeweile ein Zeichen, etwas zu ändern",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Am Persönlichen Tag 5 wird Eintönigkeit schärfer wahrgenommen als sonst. Wenn dich etwas schon lange langweilt, ist das kein Grund zur Selbstkritik, sondern ein Hinweis der Tagesenergie, einen neuen Blickwinkel zu versuchen.",
+          "Es muss nicht alles auf einmal geändert werden — ein frisches Detail im gewohnten Tag genügt."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest heute etwas Kleines und Neues in deinen gewohnten Ablauf einbauen",
+        "affirmation": "Ich habe das Recht, mir Veränderung zu wünschen",
+        "lucky_number": 23
+      },
+      {
+        "headline": "Ein Tag für Leichtigkeit im Umgang",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 5 belebt meist die Kommunikation — es fällt leichter, Leute kennenzulernen, leichter, ein Gespräch mit einer kaum bekannten Person zu führen. Die Energie des Tages begünstigt neue Verbindungen.",
+          "Es lohnt sich, sich nicht im gewohnten Kreis einzuschließen, sondern einem zufälligen Gespräch eine Chance zu geben."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Du könntest heute jemanden ansprechen, bei dem du dich früher nicht getraut hast",
+        "affirmation": "Neue Menschen bringen frischen Wind in mein Leben",
+        "lucky_number": 32
+      },
+      {
+        "headline": "Heute heilt Bewegung besser als Ruhe",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "An Tag 5 verlangt der Körper oft genau nach Bewegung — ein Spaziergang, eine andere Route, etwas körperliche Aktivität. Langes Stillsitzen fühlt sich heute schwerer an als sonst.",
+          "Es lohnt sich, wenigstens kurz aus den gewohnten vier Wänden zu treten, auch wenn der Plan ein anderer war."
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Du könntest heute einen Spaziergang auf einer unbekannten Route machen",
+        "affirmation": "Bewegung gibt mir meine Energie zurück",
+        "lucky_number": 5
+      }
+    ],
+    "6": [
+      {
+        "headline": "Heute braucht das Zuhause Aufmerksamkeit",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 6 ist ein Tag der Fürsorge, vor allem für die Nahestehenden und den Raum um dich herum. Die heutige Energie begünstigt alles, was Zuhause und Beziehungen wärmer macht.",
+          "Ein guter Moment, um demjenigen Zeit zu widmen, den du schon lange aufschiebst zu besuchen oder einfach zuzuhören."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Du könntest heute jemanden anrufen oder besuchen, an den du schon lange denkst",
+        "affirmation": "Die Fürsorge für meine Nahestehenden erfüllt auch mich",
+        "lucky_number": 6
+      },
+      {
+        "headline": "Ein Tag, um auch für dich selbst zu sorgen",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "An Tag 6 ist es leicht, alle Fürsorge nach außen zu richten und sich selbst zu vergessen. Die Energie des Tages wirkt besser, wenn zumindest ein Teil dieser Aufmerksamkeit zu dir zurückkehrt — ohne Schuldgefühl.",
+          "Ein guter Hintergrund, um dich ehrlich zu fragen: Was brauche ich heute eigentlich?"
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Vielleicht lohnt es sich, heute etwas Angenehmes nur für dich selbst zu tun, nicht nur für andere",
+        "affirmation": "Ich verdiene auch die Fürsorge, die ich anderen gebe",
+        "lucky_number": 15
+      },
+      {
+        "headline": "Heute zählt Harmonie mehr als das Ideal",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 6 löst oft den Wunsch aus, alles perfekt zu machen — zu Hause, in Beziehungen, bei der Arbeit. Aber die Energie des Tages reagiert williger auf Harmonie als auf Perfektionismus.",
+          "Manchmal ist 'gut genug' schon ein großartiges Ergebnis für heute."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Du kannst dir heute erlauben, nicht alles bis zur Perfektion zu treiben",
+        "affirmation": "Gut genug ist auch gut",
+        "lucky_number": 24
+      },
+      {
+        "headline": "Ein Tag für ein ehrliches Gespräch als Paar",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "An Tag 6 rücken Themen rund um Zuhause und Beziehung in den Vordergrund. Wenn ein Gespräch ansteht, das immer wieder verschoben wird — heute ist ein guter Hintergrund, es sanft anzusprechen, nicht in einem Wutanfall.",
+          "Die Energie des Tages unterstützt eher einen warmen Ton als Schärfe."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Vielleicht lohnt es sich, heute vorsichtig das Thema anzusprechen, das du schon lange aufschiebst",
+        "affirmation": "Ehrlichkeit aus Fürsorge bringt näher zusammen, statt zu trennen",
+        "lucky_number": 33
+      },
+      {
+        "headline": "Heute ist Gemütlichkeit kein Luxus, sondern ein Bedürfnis",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 6 reagiert gut auf einfache Alltagsfreuden — leckeres Essen, einen sauberen Raum, einen ruhigen Abend zu Hause. Das sind keine Kleinigkeiten, sondern das, was dich heute wirklich erholt.",
+          "Es lohnt sich, etwas Zeit genau für diese Gemütlichkeit einzuplanen, nicht nur für Aufgaben."
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Du könntest dir heute einen ruhigen Abend ohne Eile gönnen",
+        "affirmation": "Die Gemütlichkeit, die ich schaffe, ist Fürsorge für mich selbst",
+        "lucky_number": 6
+      }
+    ],
+    "7": [
+      {
+        "headline": "Heute ist Stille nützlicher als Antworten",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 7 ist ein Tag der Pause und der inneren Einkehr. Die heutige Energie begünstigt Stille mehr als Aktivität: Es tut gut, etwas Zeit allein mit dir selbst zu verbringen.",
+          "Wenn sich der Tag ruhiger anfühlt als sonst — das ist kein Einbruch, sondern der natürliche Rhythmus genau dieser Zahl."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Du könntest dir heute etwas Zeit für Stille nehmen, ohne Handy und Aufgaben",
+        "affirmation": "In der Stille höre ich mich selbst klarer",
+        "lucky_number": 7
+      },
+      {
+        "headline": "Ein Tag für ehrliche Fragen an dich selbst",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "An Tag 7 fällt es leichter, Widersprüche zwischen dem, was du tust, und dem, was du wirklich willst, zu bemerken. Die Energie des Tages unterstützt diese Art der inneren Überprüfung.",
+          "Es muss nicht sofort etwas geändert werden — es reicht, ehrlich zu benennen, was dir aufgefallen ist."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Vielleicht lohnt es sich, dir heute ehrlich die Frage zu beantworten, die du lange vermieden hast",
+        "affirmation": "Ich habe keine Angst, mich ehrlich anzusehen",
+        "lucky_number": 16
+      },
+      {
+        "headline": "Heute sind weniger Menschen besser",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 7 verringert oft das Bedürfnis nach Gesellschaft. Wenn du allein sein möchtest, ist das keine Distanziertheit, sondern ein natürlicher Teil der Tagesenergie.",
+          "Es lohnt sich, sich heute nicht mit Gewalt zur Geselligkeit zu zwingen."
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Du kannst heute in Ruhe die Menge an Kontakten reduzieren, wenn du dieses Bedürfnis spürst",
+        "affirmation": "Mein Recht auf Alleinsein ist genauso wichtig wie mein Recht auf Gesellschaft",
+        "lucky_number": 25
+      },
+      {
+        "headline": "Ein Tag, um zwischen den Zeilen zu lesen",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "An Tag 7 ist die Intuition meist schärfer als die Logik. Wenn sich etwas gefühlsmäßig 'nicht zusammenfügt', selbst wenn die Fakten normal aussehen — es lohnt sich, auf dieses Signal zu hören.",
+          "Die Energie des Tages funktioniert gut mit Beobachtung und schlecht mit voreiligen Schlüssen."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest heute etwas mehr auf deine Intuition vertrauen als sonst",
+        "affirmation": "Ich vertraue meiner inneren Stimme",
+        "lucky_number": 34
+      },
+      {
+        "headline": "Heute zählt Wissen mehr als Betriebsamkeit",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 7 eignet sich gut zum Lernen, Lesen, für die Vertiefung in ein Thema, das dich schon lange interessiert. Die Energie des Tages belohnt Nachdenklichkeit mehr als Multitasking.",
+          "Es lohnt sich, heute eine Sache zu wählen und tiefer einzutauchen als sonst."
+        ],
+        "focus_area": "Kreativität & Selbstausdruck",
+        "suggested_action": "Du könntest heute Zeit einem Thema widmen, das du schon lange tiefer verstehen wolltest",
+        "affirmation": "Tiefe interessiert mich mehr als Eile",
+        "lucky_number": 7
+      }
+    ],
+    "8": [
+      {
+        "headline": "Heute zahlt sich Entschlossenheit aus",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 8 ist ein Tag der Größenordnung und konkreter Ergebnisse. Die heutige Energie begünstigt entschlossene Schritte bei Angelegenheiten, die Zuversicht statt Zweifel erfordern.",
+          "Wenn es eine Aufgabe gibt, die du gerade wegen ihrer Wichtigkeit aufgeschoben hast — heute ist ein guter Hintergrund, sie endlich anzugehen."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest dich heute mit der wichtigen Aufgabe befassen, die du wegen ihres Ausmaßes aufgeschoben hast",
+        "affirmation": "Ich bin fähig, große Aufgaben zu bewältigen",
+        "lucky_number": 8
+      },
+      {
+        "headline": "Ein Tag, um deinen Beitrag zu würdigen",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "An Tag 8 ist es leichter, nüchtern zu sehen, wie viel Mühe du bereits in etwas Wichtiges investiert hast. Die Energie des Tages unterstützt eine ehrliche Einschätzung deiner Ergebnisse — ohne übertriebene Bescheidenheit.",
+          "Es lohnt sich, dir das bereits Erreichte einzugestehen, statt sofort zum nächsten Ziel überzugehen."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Vielleicht lohnt es sich, heute ein bereits erreichtes Ergebnis für dich festzuhalten",
+        "affirmation": "Ich erlaube mir, auf das Erreichte stolz zu sein",
+        "lucky_number": 17
+      },
+      {
+        "headline": "Heute zählt Balance mehr als das Rennen",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 8 drängt manchmal zur Überarbeitung — zu viel 'ich muss'. Die Energie des Tages gibt Kraft, bittet aber auch darum, sie nicht in ein endloses Rennen zu verwandeln.",
+          "Es lohnt sich, das heutige Tempo zu prüfen: Ist es sichere Bewegung oder Überlastung?"
+        ],
+        "focus_area": "Energie & Wohlbefinden",
+        "suggested_action": "Du könntest heute bewusst etwas Zeit zur Erholung zwischen den Aufgaben einplanen",
+        "affirmation": "Meine Kraft erfordert keine Erschöpfung",
+        "lucky_number": 26
+      },
+      {
+        "headline": "Ein Tag für ein ehrliches Gespräch über Status",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "An Tag 8 klingen Themen wie Geld, Status und Anerkennung lauter als sonst. Wenn ein Gespräch über Bedingungen, Bezahlung oder Rolle ansteht — die heutige Energie unterstützt eher Direktheit.",
+          "Wichtig ist, deine Position selbstbewusst, aber ohne Druck auf dein Gegenüber zu formulieren."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest heute deine Position dort klarmachen, wo du früher aus Unbehagen geschwiegen hast",
+        "affirmation": "Ich habe das Recht, über meinen eigenen Wert zu sprechen",
+        "lucky_number": 35
+      },
+      {
+        "headline": "Heute arbeitet Disziplin für dich",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 8 reagiert gut auf Struktur: Ein klarer Plan für den Tag bringt meist mehr Ergebnis als Spontaneität. Die Energie des Tages liebt klare Ziele.",
+          "Es lohnt sich, 2-3 Prioritäten für heute aufzuschreiben und den Fokus genau darauf zu halten."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest heute deine wichtigsten 2-3 Prioritäten festlegen und dich nicht im Rest verzetteln",
+        "affirmation": "Fokus gibt mir Kraft",
+        "lucky_number": 8
+      }
+    ],
+    "9": [
+      {
+        "headline": "Heute ist es gut, Kreise zu schließen",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 9 ist ein Tag des Abschlusses, nicht des Neuanfangs. Die heutige Energie begünstigt es, Unerledigtes abzuschließen: fertigstellen, sich verabschieden, loslassen.",
+          "Wenn sich etwas schon lange erschöpft hat — heute ist ein passender Hintergrund, es ehrlich anzuerkennen."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Du könntest heute etwas zu Ende bringen, das schon lange auf halbem Weg feststeckt",
+        "affirmation": "Ich weiß, wie man loslässt, was sich erschöpft hat",
+        "lucky_number": 9
+      },
+      {
+        "headline": "Ein Tag, um zu geben, ohne etwas zu erwarten",
+        "greeting": "Guten Tag {{name}}",
+        "body": [
+          "An Tag 9 ist es natürlicher, zu helfen, ohne etwas dafür zu erwarten. Die Energie des Tages unterstützt Großzügigkeit — mit Aufmerksamkeit, Zeit, einem freundlichen Wort, ohne Berechnung.",
+          "Es lohnt sich zu bemerken, wem heute ohne besonderen Grund geholfen werden könnte."
+        ],
+        "focus_area": "Beziehungen",
+        "suggested_action": "Du könntest heute für jemanden etwas Gutes tun, ohne besonderen Anlass",
+        "affirmation": "Meine Großzügigkeit kehrt auf ihre eigene Weise zu mir zurück",
+        "lucky_number": 18
+      },
+      {
+        "headline": "Heute ist der Blick weiter als sonst",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 9 bringt meist einen etwas weiteren Blick auf die Dinge — was gestern wie ein riesiges Problem wirkte, erscheint heute schon nicht mehr so bedeutend.",
+          "Es lohnt sich, diesen Hintergrund zu nutzen, um eine langwierige Frage aus etwas Distanz zu betrachten."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Du könntest heute ein altes Problem mit etwas mehr Abstand betrachten",
+        "affirmation": "Ich kann das größere Bild sehen",
+        "lucky_number": 27
+      },
+      {
+        "headline": "Ein Tag für Vergebung — auch dir selbst gegenüber",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "An Tag 9 fällt es leichter, alte Kränkungen loszulassen, auch solche gegen dich selbst. Die Energie des Tages arbeitet auf Abschluss hin, nicht darauf, die Vergangenheit festzuhalten.",
+          "Du musst nicht sofort 'vergeben und vergessen' — es reicht, dir zu erlauben, es nicht länger mit dir herumzutragen."
+        ],
+        "focus_area": "inneres Wachstum",
+        "suggested_action": "Vielleicht lohnt es sich, heute gedanklich eine alte Kränkung loszulassen",
+        "affirmation": "Ich erlaube mir, die Vergangenheit loszulassen",
+        "lucky_number": 36
+      },
+      {
+        "headline": "Heute zählen Bilanzen mehr als Neuanfänge",
+        "greeting": "Hallo {{name}}",
+        "body": [
+          "Der Persönliche Tag 9 ist nicht die beste Zeit, um etwas von Grund auf zu beginnen, eignet sich aber hervorragend, um eine Etappe zusammenzufassen. Die Energie des Tages unterstützt Reflexion.",
+          "Es lohnt sich, auf den zurückgelegten Weg zu blicken — nicht um zu kritisieren, sondern um ehrlich zu sehen, wie viel schon geleistet wurde."
+        ],
+        "focus_area": "Arbeit & Ziele",
+        "suggested_action": "Du könntest heute die Bilanz einer kleinen Etappe ziehen, statt dich gleich in etwas Neues zu stürzen",
+        "affirmation": "Ich weiß, den zurückgelegten Weg zu schätzen",
+        "lucky_number": 9
+      }
+    ]
+  }
+}

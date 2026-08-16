@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "bank": {
+    "1": [
+      {
+        "headline": "Oggi è meglio iniziare che aspettare",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Oggi è il tuo Giorno Personale 1, un giorno di inizi, non di conclusioni. L'energia favorisce il primo passo in qualcosa che rimandi da tempo.",
+          "Non serve puntare a qualcosa di grandioso, basta un'azione concreta. Il clima di oggi favorisce le decisioni prese da soli, invece di aspettare l'approvazione altrui."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Forse oggi è il giorno per fare quel primo passo che stai rimandando",
+        "affirmation": "Ho il diritto di iniziare, anche se non tutto è ancora pronto",
+        "lucky_number": 1
+      },
+      {
+        "headline": "Un giorno per ascoltare il tuo 'voglio'",
+        "greeting": "{{name}}, oggi è il tuo giorno",
+        "body": [
+          "Il Giorno Personale 1 di solito acuisce la sensazione 'so cosa voglio'. Se oggi emerge un desiderio chiaro di cambiare qualcosa, non è un capriccio, è parte del ritmo naturale del giorno.",
+          "L'energia favorisce l'indipendenza: oggi è più facile affidarsi alla propria opinione che cercare un compromesso. Non è un cattivo momento per tracciare un confine che prima ti mancava il coraggio di porre."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Vale la pena prestare attenzione al tuo primo impulso di oggi, potrebbe nascondere un indizio",
+        "affirmation": "Mi fido della mia decisione",
+        "lucky_number": 10
+      },
+      {
+        "headline": "Oggi guidare risulta più facile",
+        "greeting": "{{name}}, buongiorno",
+        "body": [
+          "Un giorno con il numero 1 di solito porta più determinazione del giorno prima. Se c'è un compito in cui qualcuno deve prendere l'iniziativa, oggi è un buon momento per essere proprio tu quella persona.",
+          "È importante non confondere la determinazione con l'impazienza verso gli altri: l'energia del giorno riguarda il tuo avanzamento, non la pressione su chi ti circonda."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Puoi assumerti oggi quell'iniziativa che prima solevi delegare ad altri",
+        "affirmation": "Sono capace di guidare restando me stesso(a)",
+        "lucky_number": 19
+      },
+      {
+        "headline": "Un buon terreno per un 'no' sincero",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 1 spesso acuisce il senso dei propri confini. Se da tempo devi dire 'no', oggi probabilmente ti verrà più facile che in altri giorni.",
+          "Non è questione di conflitto, ma di chiarezza: l'energia del giorno sostiene la franchezza senza aggressività, se formuli con calma e vai dritto al punto."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Puoi provare oggi a dire 'no' dove prima tacevi per educazione",
+        "affirmation": "La mia chiarezza è cura di me stesso(a), non scortesia",
+        "lucky_number": 28
+      },
+      {
+        "headline": "Un giorno per il tuo ritmo",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 1 di oggi riguarda il non adattarsi al ritmo altrui. Se senti il desiderio di fare qualcosa a modo tuo, e non 'come si deve', questo fa parte dell'energia del giorno.",
+          "Puoi permetterti oggi, senza sensi di colpa, una scelta impopolare se è sincera. Il clima di oggi è più propenso a sostenerla che a giudicarla."
+        ],
+        "focus_area": "creatività e autoespressione",
+        "suggested_action": "Forse vale la pena oggi scegliere il tuo ritmo invece dell'agenda di qualcun altro",
+        "affirmation": "Ho il diritto di muovermi al mio ritmo",
+        "lucky_number": 1
+      }
+    ],
+    "2": [
+      {
+        "headline": "Oggi il dialogo conta più di avere ragione",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 2 addolcisce il clima e rende più visibile il valore della collaborazione. Se c'è una conversazione in sospeso in cui conta più ascoltare l'altro che dimostrare di avere ragione, oggi è un buon momento.",
+          "L'energia del giorno favorisce i compromessi che non richiedono di rinunciare del tutto a te stesso(a). A volte basta fare una domanda invece di offrire subito una soluzione."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Forse vale la pena oggi fare una domanda invece di dare una risposta già pronta",
+        "affirmation": "So ascoltare restando me stesso(a)",
+        "lucky_number": 2
+      },
+      {
+        "headline": "Un giorno in cui la dolcezza è forza",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Il clima del giorno 2 viene spesso confuso con la debolezza, ma in realtà è la capacità di trovare un accordo dove la pressione non funziona. Questa dolcezza oggi aiuta più di quanto ostacoli.",
+          "Un buon giorno per notare il punto di vista altrui senza rinunciare al tuo, semplicemente dandogli spazio accanto al tuo."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Forse vale la pena lasciare che l'interlocutore finisca di parlare senza interromperlo",
+        "affirmation": "La mia dolcezza non annulla la mia forza",
+        "lucky_number": 11
+      },
+      {
+        "headline": "Un buon giorno per ascoltare il corpo",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 2 spesso si sente più tranquillo del solito, ed è un ritmo normale, non un calo. L'energia del giorno favorisce l'ascolto di sé più che dimostrare qualcosa al mondo.",
+          "Se il corpo chiede una pausa, il clima di oggi è dalla sua parte. Non serve trasformare la giornata in un'impresa di produttività."
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Oggi puoi concederti una pausa senza sensi di colpa",
+        "affirmation": "Mi permetto di rallentare",
+        "lucky_number": 20
+      },
+      {
+        "headline": "Oggi la collaborazione batte lo sforzo solitario",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il giorno 2 di solito mette in risalto il valore del 'noi' invece del 'io da solo(a)'. Se c'è un compito che porti avanti da solo(a), vale la pena pensare a chi potresti coinvolgere.",
+          "Non ogni richiesta di aiuto è debolezza. L'energia di oggi è più propensa a sostenere chi sa condividere il carico."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Forse vale la pena oggi chiedere aiuto dove prima te la cavavi da solo(a)",
+        "affirmation": "Chiedere sostegno è anche la mia forza",
+        "lucky_number": 29
+      },
+      {
+        "headline": "Un giorno per piccoli gesti gentili",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 2 percepisce bene i dettagli — un messaggio breve, una domanda fatta al momento giusto, attenzione senza un motivo particolare. Queste piccole cose oggi pesano più dei grandi gesti.",
+          "Vale la pena pensare a chi, nella tua cerchia, potrebbe aver bisogno proprio della tua attenzione in questo momento, non serve che sia grandiosa, basta che sia sincera."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Potresti scrivere oggi a qualcuno a cui pensi da tempo ma non hai osato",
+        "affirmation": "La mia attenzione verso le persone conta",
+        "lucky_number": 2
+      }
+    ],
+    "3": [
+      {
+        "headline": "Oggi è bello suonare come te stesso(a)",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 3 è uno dei giorni più facili per esprimersi. Se da tempo volevi dire ad alta voce qualcosa di importante, mostrare un lavoro o semplicemente essere notato(a), oggi il clima è favorevole.",
+          "L'energia del giorno sostiene la leggerezza: non tutto deve essere serio, a volte basta godersi il processo."
+        ],
+        "focus_area": "creatività e autoespressione",
+        "suggested_action": "Forse vale la pena oggi mostrare a qualcuno ciò che di solito tieni per te",
+        "affirmation": "Ho il diritto di essere ascoltato(a)",
+        "lucky_number": 3
+      },
+      {
+        "headline": "Un giorno per una conversazione leggera",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Il clima del giorno 3 di solito facilita la comunicazione più del solito. Le parole vengono più veloci, le battute colgono meglio nel segno, vale la pena approfittarne invece di restare in silenzio.",
+          "Un buon giorno per contattare qualcuno con cui non parli da tempo, la conversazione probabilmente sarà calorosa piuttosto che tesa."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Potresti scrivere o chiamare oggi qualcuno con cui non hai contatti da tempo",
+        "affirmation": "Mi risulta facile essere me stesso(a) con le persone",
+        "lucky_number": 12
+      },
+      {
+        "headline": "Oggi le idee brillano più del solito",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 3 spesso porta idee inaspettate, sul lavoro, un hobby o semplicemente un modo diverso di dire qualcosa. Vale la pena annotarle, anche se non è ancora il momento di realizzarle.",
+          "L'energia del giorno non richiede un risultato immediato, basta permettersi di fantasticare senza il censore interiore."
+        ],
+        "focus_area": "creatività e autoespressione",
+        "suggested_action": "Vale la pena forse annotare oggi l'idea che ti viene in mente, senza giudicarla subito",
+        "affirmation": "Le mie idee meritano attenzione",
+        "lucky_number": 21
+      },
+      {
+        "headline": "Un giorno per non temere di essere ridicoli",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il giorno 3 riduce la serietà interiore e rende più accessibile il senso dell'umorismo, anche verso te stesso(a). È un buon clima per non vivere i passi falsi come una tragedia.",
+          "Se oggi qualcosa non va secondo i piani, l'energia del giorno suggerisce di prenderla con più leggerezza del solito."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Puoi ridere oggi della tua stessa goffaggine invece di rimproverarti",
+        "affirmation": "Mi permetto di non essere perfetto(a)",
+        "lucky_number": 30
+      },
+      {
+        "headline": "Oggi la creatività guarisce meglio dell'analisi",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel Giorno Personale 3 la mente di solito si riposa meglio attraverso la creatività che attraverso la logica — disegnare, musica, cucinare, qualsiasi lavoro manuale. Vale la pena scegliere proprio questo modo per recuperare.",
+          "Se si è accumulata tensione, il clima di oggi è più propenso a scioglierla creando qualcosa piuttosto che analizzando le cause."
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Forse vale la pena oggi scegliere un'attività creativa invece di provare a pensare a tutto",
+        "affirmation": "So recuperare le energie facendo ciò che amo",
+        "lucky_number": 3
+      }
+    ],
+    "4": [
+      {
+        "headline": "Oggi l'ordine conta più della velocità",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 4 è un giorno di fondamenta, non di scatti. L'energia di oggi sostiene passi metodici, anche piccoli, che poi si trasformeranno in stabilità.",
+          "Un buon momento per mettere ordine dove da tempo si accumula il caos, negli affari, nei documenti o semplicemente nell'agenda."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Potresti sistemare oggi ciò che rimandi da tempo 'a dopo'",
+        "affirmation": "La mia costanza è anche un passo avanti",
+        "lucky_number": 4
+      },
+      {
+        "headline": "Un giorno per un piano onesto",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Il clima del giorno 4 si presta bene a una valutazione lucida: cosa riesci davvero a fare e cosa è ora di lasciar andare. Non tutto ciò che è pianificato deve accadere proprio adesso.",
+          "L'energia del giorno premia più un piano onesto che belle promesse ma irrealistiche verso te stesso(a)."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Forse vale la pena rivedere oggi la tua lista di cose da fare e lasciare solo ciò che è davvero importante",
+        "affirmation": "Il mio piano onesto vale più di uno perfetto ma impossibile",
+        "lucky_number": 13
+      },
+      {
+        "headline": "Oggi il corpo chiede routine",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 4 spesso si manifesta nel corpo come richiesta di stabilità, sonno regolare, pasti, pause. Un ritmo caotico oggi si sente più pesante del solito.",
+          "Un po' di routine oggi non è noia, è una forma di cura verso te stesso(a)."
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Potresti andare a letto oggi un po' prima del solito",
+        "affirmation": "Prendermi cura della mia routine è anche prendermi cura di me",
+        "lucky_number": 22
+      },
+      {
+        "headline": "Un giorno per l'affidabilità nelle relazioni",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel giorno 4 conta non l'intensità dei sentimenti, ma la costanza — arrivare puntuali, mantenere una promessa, essere presenti senza drammi. Cose così oggi significano più di quanto sembri.",
+          "Se a qualcuno importa la tua stabilità, oggi è un buon giorno per dimostrarlo con i fatti, non solo a parole."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Potresti mantenere oggi una piccola promessa che sarebbe stato facile rimandare",
+        "affirmation": "La mia costanza è una forma d'amore",
+        "lucky_number": 31
+      },
+      {
+        "headline": "Oggi lento non significa male",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 4 non riguarda gli scatti, ma un ritmo stabile. Se oggi tutto va più lento di quanto vorresti, non è motivo di preoccupazione, è una caratteristica proprio di questo giorno.",
+          "L'energia del giorno premia la pazienza più della fretta."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Forse vale la pena oggi rallentare il ritmo e non pretendere record da te stesso(a)",
+        "affirmation": "Anche il mio ritmo di oggi è quello giusto",
+        "lucky_number": 4
+      }
+    ],
+    "5": [
+      {
+        "headline": "Oggi i cambiamenti sono in meglio",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 5 è uno dei giorni più movimentati. L'energia favorisce nuove esperienze, un cambio di scenario, decisioni spontanee che in un altro giorno sembrerebbero rischiose.",
+          "Se nasce il desiderio di cambiare qualcosa, un percorso, un'abitudine, il piano della serata, il clima di oggi è più propenso a sostenerlo che a punirti per l'incostanza."
+        ],
+        "focus_area": "creatività e autoespressione",
+        "suggested_action": "Potresti provare oggi qualcosa che non hai mai fatto prima",
+        "affirmation": "Sono aperto(a) a nuove esperienze",
+        "lucky_number": 5
+      },
+      {
+        "headline": "Un giorno in cui il piano può cambiare",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Il clima del giorno 5 non ama gli schemi rigidi. Se l'agenda cambia all'improvviso, non è una catastrofe, è parte dell'energia del giorno che chiede flessibilità.",
+          "Vale la pena concederti un po' di improvvisazione dove di solito tutto è pianificato al minuto."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Forse vale la pena oggi scostarsi dal piano abituale anche solo in un dettaglio",
+        "affirmation": "La flessibilità è anche la mia forza",
+        "lucky_number": 14
+      },
+      {
+        "headline": "Oggi la noia è un segnale per cambiare qualcosa",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel Giorno Personale 5 la monotonia si avverte più intensamente del solito. Se qualcosa ti ha stancato da tempo, non è un motivo per rimproverarti, è un suggerimento dell'energia del giorno per provare un'angolazione nuova.",
+          "Non serve cambiare tutto in una volta, basta un dettaglio fresco nella giornata abituale."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Potresti introdurre oggi qualcosa di piccolo e nuovo nella tua routine abituale",
+        "affirmation": "Ho il diritto di desiderare cambiamenti",
+        "lucky_number": 23
+      },
+      {
+        "headline": "Un giorno per la leggerezza nella comunicazione",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 5 di solito rende la comunicazione più vivace, è più facile conoscere gente, più facile sostenere una conversazione con qualcuno che conosci appena. L'energia del giorno favorisce nuovi legami.",
+          "Vale la pena non chiudersi nella cerchia abituale e dare una possibilità a una conversazione casuale."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Potresti oggi rivolgere la parola a qualcuno con cui prima non osavi",
+        "affirmation": "Le persone nuove portano aria fresca nella mia vita",
+        "lucky_number": 32
+      },
+      {
+        "headline": "Oggi il movimento guarisce meglio della quiete",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel giorno 5 il corpo spesso chiede proprio movimento, una passeggiata, un cambio di percorso, un po' di attività fisica. Stare fermi a lungo oggi si sente più pesante del solito.",
+          "Vale la pena uscire un po' dalle solite quattro mura, anche se il piano era diverso."
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Potresti fare oggi una passeggiata su un percorso sconosciuto",
+        "affirmation": "Il movimento mi restituisce energia",
+        "lucky_number": 5
+      }
+    ],
+    "6": [
+      {
+        "headline": "Oggi la casa chiede attenzione",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 6 è un giorno di cura, soprattutto verso le persone vicine e lo spazio che ti circonda. L'energia di oggi favorisce tutto ciò che rende la casa e le relazioni più calde.",
+          "Un buon momento per dedicare tempo a chi rimandi da tempo di visitare o semplicemente ascoltare."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Potresti chiamare o visitare oggi qualcuno a cui pensi da tempo",
+        "affirmation": "Prendermi cura delle persone vicine nutre anche me",
+        "lucky_number": 6
+      },
+      {
+        "headline": "Un giorno per prendersi cura anche di sé",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Nel giorno 6 è facile dirigere tutta la cura verso l'esterno e dimenticarsi di sé. L'energia del giorno funziona meglio se almeno una parte di questa attenzione torna a te, senza sensi di colpa.",
+          "Un buon clima per chiederti onestamente: di cosa ho davvero bisogno oggi?"
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Forse vale la pena oggi fare qualcosa di piacevole solo per te, non solo per gli altri",
+        "affirmation": "Merito anche io la cura che do agli altri",
+        "lucky_number": 15
+      },
+      {
+        "headline": "Oggi l'armonia conta più dell'ideale",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 6 spesso provoca il desiderio di fare tutto alla perfezione — a casa, nelle relazioni, nel lavoro. Ma l'energia del giorno risponde più volentieri all'armonia che al perfezionismo.",
+          "A volte 'abbastanza bene' è già un ottimo risultato per oggi."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Puoi permetterti oggi di non portare tutto alla perfezione",
+        "affirmation": "Abbastanza bene è anche bene",
+        "lucky_number": 24
+      },
+      {
+        "headline": "Un giorno per una conversazione sincera in coppia",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel giorno 6 i temi della casa e delle relazioni passano in primo piano. Se c'è una conversazione in sospeso che continua a essere rimandata, oggi è un buon clima per affrontarla con dolcezza, non di getto.",
+          "L'energia del giorno è più propensa a sostenere un tono caloroso che la durezza."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Forse vale la pena affrontare oggi con delicatezza l'argomento che rimandi da tempo",
+        "affirmation": "L'onestà che nasce dalla cura avvicina, non allontana",
+        "lucky_number": 33
+      },
+      {
+        "headline": "Oggi il comfort non è un lusso, è un bisogno",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 6 risponde bene ai piccoli piaceri quotidiani, un buon pasto, uno spazio pulito, una serata tranquilla a casa. Non sono dettagli minori, sono ciò che oggi ti rigenera davvero.",
+          "Vale la pena riservare un po' di tempo proprio a questo comfort, non solo alle faccende."
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Potresti concederti oggi una serata tranquilla senza fretta",
+        "affirmation": "Il comfort che creo è cura verso me stesso(a)",
+        "lucky_number": 6
+      }
+    ],
+    "7": [
+      {
+        "headline": "Oggi il silenzio è più utile delle risposte",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 7 è un giorno di pausa e analisi interiore. L'energia di oggi favorisce il silenzio più dell'attività: fa bene restare un po' da soli con se stessi.",
+          "Se la giornata sembra più silenziosa del solito, non è un calo, è il ritmo naturale proprio di questo numero."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Potresti riservare oggi un po' di tempo per stare in silenzio, senza telefono e senza compiti",
+        "affirmation": "Nel silenzio mi ascolto con più chiarezza",
+        "lucky_number": 7
+      },
+      {
+        "headline": "Un giorno per domande sincere a te stesso(a)",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Nel giorno 7 è più facile notare le discrepanze tra ciò che fai e ciò che vuoi davvero. L'energia del giorno sostiene questo tipo di verifica interiore.",
+          "Non serve cambiare subito qualcosa, basta nominare onestamente ciò che hai notato."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Vale la pena forse rispondere oggi con onestà alla domanda che eviti da tempo",
+        "affirmation": "Non ho paura di guardarmi con onestà",
+        "lucky_number": 16
+      },
+      {
+        "headline": "Oggi meno persone è meglio",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 7 spesso riduce il bisogno di compagnia. Se hai voglia di stare da solo(a), non è distacco, è una parte naturale dell'energia del giorno.",
+          "Vale la pena non costringerti oggi a essere socievole per forza."
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Puoi ridurre oggi con calma la quantità di interazioni, se senti questo bisogno",
+        "affirmation": "Il mio diritto alla solitudine conta quanto il diritto alla compagnia",
+        "lucky_number": 25
+      },
+      {
+        "headline": "Un giorno per leggere tra le righe",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel giorno 7 l'intuito di solito è più acuto della logica. Se qualcosa 'non torna' a livello di sensazione, anche quando i fatti sembrano normali, vale la pena ascoltare quel segnale.",
+          "L'energia del giorno funziona bene con l'osservazione e male con le conclusioni affrettate."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Potresti fidarti oggi un po' più del solito del tuo intuito",
+        "affirmation": "Mi fido della mia voce interiore",
+        "lucky_number": 34
+      },
+      {
+        "headline": "Oggi la conoscenza conta più della frenesia",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 7 si presta bene a studiare, leggere, approfondire un argomento che ti interessa da tempo. L'energia del giorno premia la riflessione più del multitasking.",
+          "Vale la pena scegliere oggi una sola cosa e immergerti in essa più a fondo del solito."
+        ],
+        "focus_area": "creatività e autoespressione",
+        "suggested_action": "Potresti dedicare oggi del tempo a un argomento che volevi capire meglio da tempo",
+        "affirmation": "La profondità mi interessa più della fretta",
+        "lucky_number": 7
+      }
+    ],
+    "8": [
+      {
+        "headline": "Oggi la determinazione dà risultati",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 8 è un giorno di scala e risultati concreti. L'energia di oggi favorisce passi decisi in questioni che richiedono sicurezza, non dubbi.",
+          "Se c'è un compito che rimandi proprio per la sua importanza, oggi è un clima favorevole per affrontarlo finalmente."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Potresti occuparti oggi di quel compito importante che rimandavi per la sua portata",
+        "affirmation": "Sono capace di gestire grandi compiti",
+        "lucky_number": 8
+      },
+      {
+        "headline": "Un giorno per valutare il tuo contributo",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Nel giorno 8 è più facile vedere con lucidità quanto impegno hai già messo in qualcosa di importante. L'energia del giorno sostiene una valutazione onesta dei tuoi risultati, senza eccessiva modestia.",
+          "Vale la pena riconoscere ciò che è già stato raggiunto prima di passare subito all'obiettivo successivo."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Forse vale la pena annotare oggi un risultato già raggiunto",
+        "affirmation": "Mi permetto di essere orgoglioso(a) di ciò che ho fatto",
+        "lucky_number": 17
+      },
+      {
+        "headline": "Oggi l'equilibrio conta più della corsa",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 8 a volte spinge verso il sovraccarico di lavoro, troppi 'devo'. L'energia del giorno dà forza, ma chiede anche di non trasformarla in una corsa senza fine.",
+          "Vale la pena verificare il ritmo di oggi: è un avanzamento sicuro o un sovraccarico?"
+        ],
+        "focus_area": "energia e benessere",
+        "suggested_action": "Potresti lasciare oggi consapevolmente un po' di tempo per riposare tra un compito e l'altro",
+        "affirmation": "La mia forza non richiede l'esaurimento",
+        "lucky_number": 26
+      },
+      {
+        "headline": "Un giorno per una conversazione sincera sul tuo status",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel giorno 8 i temi di denaro, status e riconoscimento risuonano più forte del solito. Se c'è una conversazione in sospeso su condizioni, retribuzione o ruolo, l'energia di oggi è più propensa a sostenere la franchezza.",
+          "È importante esporre la tua posizione con sicurezza, ma senza mettere pressione all'interlocutore."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Potresti far valere oggi la tua posizione dove prima tacevi per imbarazzo",
+        "affirmation": "Ho il diritto di parlare del mio valore",
+        "lucky_number": 35
+      },
+      {
+        "headline": "Oggi la disciplina lavora a tuo favore",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 8 risponde bene alla struttura: un piano chiaro per la giornata di solito dà più risultati della spontaneità. L'energia del giorno ama gli obiettivi chiari.",
+          "Vale la pena scrivere 2-3 priorità per oggi e mantenere il focus proprio su di esse."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Potresti scegliere oggi 2-3 priorità principali e non disperderti sul resto",
+        "affirmation": "Il focus mi dà forza",
+        "lucky_number": 8
+      }
+    ],
+    "9": [
+      {
+        "headline": "Oggi è bene chiudere i cicli",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 9 è un giorno di conclusione, non di un nuovo inizio. L'energia di oggi favorisce la chiusura di ciò che è incompiuto: finire, salutare, lasciar andare.",
+          "Se qualcosa si è esaurito da tempo, oggi è un clima adatto per riconoscerlo onestamente."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Potresti portare a termine oggi qualcosa che è rimasto sospeso a metà da tempo",
+        "affirmation": "So lasciar andare ciò che si è esaurito",
+        "lucky_number": 9
+      },
+      {
+        "headline": "Un giorno per dare senza aspettarsi nulla in cambio",
+        "greeting": "Buongiorno {{name}}",
+        "body": [
+          "Nel giorno 9 è più naturale aiutare senza aspettarsi nulla in cambio. L'energia del giorno sostiene la generosità, con attenzione, tempo, una parola gentile, senza calcolo.",
+          "Vale la pena notare chi oggi potrebbe aver bisogno di aiuto senza un motivo particolare."
+        ],
+        "focus_area": "relazioni",
+        "suggested_action": "Potresti fare oggi qualcosa di buono per qualcuno senza un motivo particolare",
+        "affirmation": "La mia generosità torna a me a modo suo",
+        "lucky_number": 18
+      },
+      {
+        "headline": "Oggi lo sguardo è più ampio del solito",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 9 di solito porta uno sguardo un po' più ampio sulle cose, ciò che ieri sembrava un problema enorme oggi non appare più così significativo.",
+          "Vale la pena approfittare di questo clima per guardare da una certa distanza una questione che si trascina da tempo."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Potresti guardare oggi a un vecchio problema con un po' più di distanza",
+        "affirmation": "So vedere il quadro più ampio",
+        "lucky_number": 27
+      },
+      {
+        "headline": "Un giorno per il perdono, anche verso te stesso(a)",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Nel giorno 9 è più facile lasciar andare vecchi rancori, anche quelli verso te stesso(a). L'energia del giorno lavora per la conclusione, non per trattenere il passato.",
+          "Non serve 'perdonare e dimenticare' subito, basta permettersi di smettere di portarlo con sé."
+        ],
+        "focus_area": "crescita interiore",
+        "suggested_action": "Forse vale la pena lasciar andare oggi mentalmente un vecchio rancore",
+        "affirmation": "Mi permetto di lasciar andare il passato",
+        "lucky_number": 36
+      },
+      {
+        "headline": "Oggi i bilanci contano più dei nuovi inizi",
+        "greeting": "Ciao {{name}}",
+        "body": [
+          "Il Giorno Personale 9 non è il momento migliore per iniziare qualcosa da zero, ma è ottimo per fare il bilancio di una tappa. L'energia del giorno sostiene la riflessione.",
+          "Vale la pena guardare indietro al percorso fatto, non per criticarti, ma per vedere onestamente quanto è già stato fatto."
+        ],
+        "focus_area": "lavoro e obiettivi",
+        "suggested_action": "Potresti chiudere oggi il bilancio di una piccola tappa invece di lanciarti subito in qualcosa di nuovo",
+        "affirmation": "So apprezzare il percorso fatto",
+        "lucky_number": 9
+      }
+    ]
+  }
+}

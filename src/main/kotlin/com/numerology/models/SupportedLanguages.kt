@@ -23,6 +23,9 @@ object SupportedLanguages {
 
     const val DEFAULT: String = "ru"
 
+    /** All supported codes, e.g. for FallbackBank to know which resource files to look for. */
+    val CODES: Set<String> = displayNames.keys
+
     /** Used when a user has no name on file yet — fed to the LLM as data, not the prompt's own language. */
     private val defaultUserNames = mapOf(
         "en" to "friend",
