@@ -74,6 +74,10 @@ tasks.withType<KotlinCompile> {
     }
 }
 
+tasks.shadowJar {
+    mergeServiceFiles()
+}
+
 tasks.test {
     useJUnitPlatform()
 }
