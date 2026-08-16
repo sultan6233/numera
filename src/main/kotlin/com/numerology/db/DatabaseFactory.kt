@@ -26,7 +26,7 @@ object DatabaseFactory {
 
         Flyway.configure()
             .dataSource(dataSource)
-            .locations("classpath:db/migration")
+            .locations("filesystem:/app/db/migration")
             .validateMigrationNaming(true)
             .load()
             .migrate()
