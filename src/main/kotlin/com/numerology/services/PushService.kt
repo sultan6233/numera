@@ -3,11 +3,9 @@ package com.numerology.services
 import com.numerology.fcm.FcmClient
 import com.numerology.repositories.DailyInsightRepository
 import com.numerology.repositories.PushTokenRepository
-import com.numerology.repositories.UserRepository
-import com.numerology.scheduler.resolveUserZone
 import org.slf4j.LoggerFactory
+import java.time.Instant
 import java.time.ZoneId
-import java.time.ZonedDateTime
 import java.util.UUID
 
 private val logger = LoggerFactory.getLogger("PushService")
@@ -15,7 +13,6 @@ private val logger = LoggerFactory.getLogger("PushService")
 class PushService(
     private val pushTokenRepository: PushTokenRepository,
     private val dailyInsightRepository: DailyInsightRepository,
-    private val userRepository: UserRepository,
     private val fcmClient: FcmClient,
 ) {
     suspend fun registerToken(userId: UUID, platform: String, token: String) {
@@ -23,10 +20,11 @@ class PushService(
     }
 
     /**
-     * 30-minute sweep: for each user with a push token, once their local
-     * clock hits DAILY_PUSH_HOUR, push today's (their local today's) headline
-     * if it's ready and hasn't been pushed yet. `pushed_at` on daily_insights
-     * makes this idempotent across repeated sweeps within the hour window.
+     * 30-minute sweep: push today's headline (in each user's own local day)
+     * once it's ready and their local clock hits DAILY_PUSH_HOUR. Who's due
+     * is resolved in one SQL query (DailyInsightRepository.findDueForPush)
+     * instead of loading every token holder into Kotlin and checking each
+     * one here; `pushed_at` makes repeated sweeps within the hour a no-op.
      */
     suspend fun runPushSweep(defaultZoneId: ZoneId, pushHour: Int) {
         if (!fcmClient.isConfigured()) {
@@ -34,28 +32,14 @@ class PushService(
             return
         }
 
-        val userIds = pushTokenRepository.allUserIdsWithTokens()
+        val defaultOffsetMinutes = defaultZoneId.rules.getOffset(Instant.now()).totalSeconds / 60
+        val dueInsights = dailyInsightRepository.findDueForPush(defaultOffsetMinutes, pushHour)
+
         var sent = 0
         var failed = 0
-        var notDue = 0
-        var notReady = 0
-
-        for (userId in userIds) {
-            val user = userRepository.findById(userId) ?: continue
-            val nowLocal = ZonedDateTime.now(resolveUserZone(user, defaultZoneId))
-            if (nowLocal.hour != pushHour) {
-                notDue++
-                continue
-            }
-
-            val insight = dailyInsightRepository.findByUserAndDate(userId, nowLocal.toLocalDate())
-            if (insight == null || insight.pushedAt != null) {
-                notReady++
-                continue
-            }
-
+        for (insight in dueInsights) {
             var anySent = false
-            for (t in pushTokenRepository.tokensForUser(userId)) {
+            for (t in pushTokenRepository.tokensForUser(insight.userId)) {
                 when (fcmClient.send(t.token, title = insight.headline, body = insight.greeting ?: insight.headline)) {
                     FcmClient.SendResult.OK -> {
                         sent++
@@ -68,8 +52,8 @@ class PushService(
                     else -> failed++
                 }
             }
-            if (anySent) dailyInsightRepository.markPushed(userId, nowLocal.toLocalDate())
+            if (anySent) dailyInsightRepository.markPushed(insight.userId, insight.date)
         }
-        logger.info("Push sweep done: sent=$sent failed=$failed not_due=$notDue not_ready=$notReady")
+        logger.info("Push sweep done: candidates=${dueInsights.size} sent=$sent failed=$failed")
     }
 }

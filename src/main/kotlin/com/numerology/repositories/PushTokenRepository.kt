@@ -50,10 +50,4 @@ class PushTokenRepository {
     suspend fun deleteToken(token: String) = dbQuery {
         withConnection { conn -> conn.update("delete from push_tokens where token = ?", token) }
     }
-
-    suspend fun allUserIdsWithTokens(): List<UUID> = dbQuery {
-        withConnection { conn ->
-            conn.query("select distinct user_id from push_tokens") { rs -> rs.getObject("user_id", UUID::class.java) }
-        }
-    }
 }

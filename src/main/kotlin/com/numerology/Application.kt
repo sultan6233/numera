@@ -96,7 +96,7 @@ fun Application.module(config: AppConfig) {
     val companionService = CompanionService(companionRepository)
     val insightService = InsightService(userRepository, computedNumbersRepository, dailyInsightRepository, openAiClient, fallbackBank, zoneId)
     val subscriptionService = SubscriptionService(subscriptionRepository, webhookEventRepository, googlePlayClient)
-    val pushService = PushService(pushTokenRepository, dailyInsightRepository, userRepository, fcmClient)
+    val pushService = PushService(pushTokenRepository, dailyInsightRepository, fcmClient)
     val remoteConfigService = RemoteConfigService(remoteConfigRepository)
 
     routing {
@@ -113,7 +113,7 @@ fun Application.module(config: AppConfig) {
     // ---- Background jobs ----
     // Each user's own local time (profile `timezone`, falling back to this server
     // default) decides when they're due, not a single global hour — see NightlyBatchJob.
-    val nightlyBatchJob = NightlyBatchJob(subscriptionRepository, userRepository, dailyInsightRepository, insightService, zoneId, config.nightlyBatchHour)
+    val nightlyBatchJob = NightlyBatchJob(userRepository, insightService, zoneId, config.nightlyBatchHour)
     val sweepIntervalMs = 30 * 60_000L
     schedulePeriodic("nightly-insight-sweep", intervalMs = sweepIntervalMs) {
         nightlyBatchJob.run()

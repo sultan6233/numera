@@ -69,20 +69,6 @@ class SubscriptionRepository {
         }
     }
 
-    /** Users the nightly batch should generate tomorrow's insight for: anyone with a currently active (or in-grace) subscription. */
-    suspend fun findActiveSubscriberUserIds(): List<UUID> = dbQuery {
-        withConnection { conn ->
-            conn.query(
-                """
-                select distinct user_id from subscriptions
-                where user_id is not null
-                  and status in ('active', 'grace_period')
-                  and (expires_at is null or expires_at > now())
-                """.trimIndent()
-            ) { rs -> rs.getObject("user_id", UUID::class.java) }
-        }
-    }
-
     suspend fun linkUserByOriginalTransactionId(platform: String, originalTransactionId: String, userId: UUID): Int = dbQuery {
         withConnection { conn ->
             conn.update(

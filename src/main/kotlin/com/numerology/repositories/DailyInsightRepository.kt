@@ -40,9 +40,35 @@ class DailyInsightRepository {
         }
     }
 
-    suspend fun findByDate(date: LocalDate): List<DailyInsightRecord> = dbQuery {
+    /**
+     * Ready-to-push insights: not pushed yet, dated "today" in the owning
+     * user's local time (timezone_offset_minutes, falling back to
+     * defaultOffsetMinutes), whose local clock is at targetHour right now,
+     * and whose user has at least one push token. Pure interval arithmetic
+     * in one query -- see UserRepository.findActiveSubscribersDueForInsight
+     * for why this isn't done with AT TIME ZONE on a raw offset string.
+     */
+    suspend fun findDueForPush(defaultOffsetMinutes: Int, targetHour: Int): List<DailyInsightRecord> = dbQuery {
         withConnection { conn ->
-            conn.query(selectSql("where date = ?"), date) { rs -> rs.toRecord() }
+            conn.query(
+                """
+                with candidates as (
+                    select
+                        di.id, di.user_id, di.date, di.personal_day_number, di.focus_area, di.headline, di.greeting,
+                        di.body, di.suggested_action, di.affirmation, di.lucky_number, di.source, di.created_at, di.pushed_at,
+                        (now() + (coalesce(u.timezone_offset_minutes, ?) || ' minutes')::interval) as local_now
+                    from daily_insights di
+                    join users u on u.id = di.user_id
+                    where di.pushed_at is null
+                      and exists (select 1 from push_tokens pt where pt.user_id = di.user_id)
+                )
+                select id, user_id, date, personal_day_number, focus_area, headline, greeting, body, suggested_action, affirmation, lucky_number, source, created_at, pushed_at
+                from candidates c
+                where extract(hour from c.local_now) = ?
+                  and c.date = c.local_now::date
+                """.trimIndent(),
+                defaultOffsetMinutes, targetHour
+            ) { rs -> rs.toRecord() }
         }
     }
 
