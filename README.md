@@ -37,6 +37,10 @@ push/Google calls are skipped) so you can smoke-test the rest of the API immedia
 - `GET /profile` (auth) — read back the saved profile.
 - `POST /profile/companions`, `GET /profile/companions`, `DELETE /profile/companions/{id}` (auth)
 
+**Optional headers on every authenticated request** (`plugins/Security.kt`) — cheap opportunistic profile sync, no dedicated "update" endpoint needed:
+- `X-Timezone: Asia/Tashkent` or `+05:00` (anything `java.time.ZoneId` accepts) — drives when the nightly insight/push jobs fire for this user (`NightlyBatchJob`, `PushService`) and what "today" means in `GET /daily-insight`.
+- `X-Language: en|es|pt-BR|uk|tr|de|fr|pl|it|ru` (see `models/SupportedLanguages.kt`) — what language the LLM writes the daily insight in (`llm/OpenAiClient.kt`). Static fallback-bank content (used only when the LLM call fails/isn't configured) is Russian-only for now.
+
 **Контент**
 - `GET /daily-insight?date=YYYY-MM-DD` (auth) — cache read; generates synchronously as a fallback if the nightly batch hasn't produced today's entry yet.
 - `GET /reference/numbers` — static versioned JSON (`src/main/resources/reference_numbers.json`), redeploy to update, no app release needed.

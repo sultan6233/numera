@@ -2,6 +2,7 @@ package com.numerology.llm
 
 import com.numerology.config.AppConfig
 import com.numerology.models.LlmInsightPayload
+import com.numerology.models.SupportedLanguages
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.cio.CIO
@@ -33,6 +34,7 @@ data class InsightGenerationContext(
     val personalDayNumber: Int,
     val focusTheme: String,
     val recentTitles: List<String>, // "date — headline (focus_area)" lines, most recent first
+    val language: String, // code from SupportedLanguages, e.g. "ru", "en", "pt-BR" — see buildSystemPrompt
 )
 
 private const val SYSTEM_PROMPT = """
@@ -76,6 +78,20 @@ Number) сгенерировать тёплый, конкретный, немн�
    markdown-форматирования внутри значений.
 """
 
+/**
+ * These rules above are authored once, in Russian — LLMs follow "write your
+ * output in language X" instructions reliably even when the surrounding
+ * instructions are in a different language, so there's no need to maintain
+ * a parallel translated prompt per SupportedLanguages entry. Only the final
+ * output language changes; JSON keys stay in English (buildUserPrompt's
+ * schema already says so).
+ */
+private fun buildSystemPrompt(languageName: String): String =
+    SYSTEM_PROMPT.trimIndent() + "\n\n9. Весь текст в значениях JSON (headline, greeting, body, " +
+        "suggested_action, affirmation) пиши ПОЛНОСТЬЮ на языке: $languageName — включая " +
+        "обращения, грамматический род и идиомы, естественные для носителя этого языка. " +
+        "Названия ключей JSON оставляй на английском, как в схеме."
+
 private fun buildUserPrompt(ctx: InsightGenerationContext): String {
     val recentBlock = if (ctx.recentTitles.isEmpty()) "(нет данных за последние дни)" else ctx.recentTitles.joinToString("\n")
     return """
@@ -95,6 +111,8 @@ private fun buildUserPrompt(ctx: InsightGenerationContext): String {
 
 Заголовки/темы последних 5 дней (НЕ повторять ракурс и формулировки):
 $recentBlock
+
+Язык ответа: ${SupportedLanguages.displayName(ctx.language)} (весь текст в значениях JSON).
 
 Сгенерируй инсайт на сегодня строго в этом формате JSON:
 
@@ -155,7 +173,7 @@ class OpenAiClient(private val config: AppConfig) {
                     ChatCompletionRequest(
                         model = config.openAiModel,
                         messages = listOf(
-                            ChatMessage("system", SYSTEM_PROMPT.trimIndent()),
+                            ChatMessage("system", buildSystemPrompt(SupportedLanguages.displayName(ctx.language))),
                             ChatMessage("user", buildUserPrompt(ctx)),
                         ),
                     )

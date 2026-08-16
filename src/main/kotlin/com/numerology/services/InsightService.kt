@@ -4,6 +4,7 @@ import com.numerology.llm.InsightGenerationContext
 import com.numerology.llm.OpenAiClient
 import com.numerology.models.DailyInsightResponse
 import com.numerology.models.LlmInsightPayload
+import com.numerology.models.SupportedLanguages
 import com.numerology.numerology.FocusArea
 import com.numerology.numerology.PersonalDayCalculator
 import com.numerology.repositories.ComputedNumbersRepository
@@ -58,13 +59,14 @@ class InsightService(
             .map { "${it.date} — ${it.headline} (${it.focusArea})" }
 
         val ctx = InsightGenerationContext(
-            userName = user.name?.takeIf { it.isNotBlank() } ?: "друг",
+            userName = user.name?.takeIf { it.isNotBlank() } ?: SupportedLanguages.defaultUserName(user.language),
             lifePathNumber = computedNumbers?.lifePath,
             expressionNumber = computedNumbers?.expression,
             soulUrgeNumber = computedNumbers?.soulUrge,
             personalityNumber = computedNumbers?.personality,
             todayDate = date.format(DateTimeFormatter.ISO_LOCAL_DATE),
             personalDayNumber = personalDayNumber,
+            language = user.language,
             focusTheme = focusArea,
             recentTitles = recentTitles,
         )

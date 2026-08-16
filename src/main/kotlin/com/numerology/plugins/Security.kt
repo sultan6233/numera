@@ -1,5 +1,6 @@
 package com.numerology.plugins
 
+import com.numerology.models.SupportedLanguages
 import com.numerology.repositories.UserRepository
 import com.numerology.security.JwtService
 import io.ktor.server.application.Application
@@ -26,6 +27,13 @@ const val AUTH_JWT = "auth-jwt"
  */
 const val TIMEZONE_HEADER = "X-Timezone"
 
+/**
+ * Client's current app language as a code from SupportedLanguages (e.g.
+ * "en", "pt-BR", "tr"). Optional on every authenticated request — drives
+ * what language the LLM writes daily insights in; see OpenAiClient.
+ */
+const val LANGUAGE_HEADER = "X-Language"
+
 fun Application.configureSecurity(jwtService: JwtService) {
     install(Authentication) {
         jwt(AUTH_JWT) {
@@ -40,19 +48,26 @@ fun Application.configureSecurity(jwtService: JwtService) {
 
 /**
  * Convenience wrapper: routes under this block get the userId available via
- * call.requireUserId(). Also keeps the user's stored profile `timezone` in
- * sync with the X-Timezone header on every request (cheap indexed upsert) --
- * NightlyBatchJob and PushService run on a schedule with no request in
- * flight, so they can only ever read whatever was last persisted here; this
- * is what lets a traveling user's schedule follow them without a separate
- * "update my timezone" call.
+ * call.requireUserId(). Also keeps the user's stored profile `timezone` and
+ * `language` in sync with the X-Timezone / X-Language headers on every
+ * request (one cheap indexed upsert) -- NightlyBatchJob, PushService and the
+ * LLM prompt all run with no request in flight, so they can only ever read
+ * whatever was last persisted here; this is what lets a traveling user's
+ * schedule, or someone who switched the app's language, take effect without
+ * a separate "update my profile" call.
  */
 fun Route.authenticated(userRepository: UserRepository, build: Route.() -> Unit) = authenticate(AUTH_JWT) {
     intercept(ApplicationCallPipeline.Call) {
-        val header = call.request.header(TIMEZONE_HEADER)
-        if (!header.isNullOrBlank() && runCatching { ZoneId.of(header) }.isSuccess) {
+        val timezoneHeader = call.request.header(TIMEZONE_HEADER)
+            ?.takeIf { it.isNotBlank() && runCatching { ZoneId.of(it) }.isSuccess }
+        val languageHeader = call.request.header(LANGUAGE_HEADER)
+            ?.takeIf { SupportedLanguages.isSupported(it) }
+
+        if (timezoneHeader != null || languageHeader != null) {
             val userId = call.requireUserId()
-            runCatching { userRepository.updateProfile(userId, name = null, birthDate = null, language = null, timezone = header) }
+            runCatching {
+                userRepository.updateProfile(userId, name = null, birthDate = null, language = languageHeader, timezone = timezoneHeader)
+            }
         }
     }
     build()
